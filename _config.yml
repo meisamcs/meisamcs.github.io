@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Mwis / Site Title"
+title                    : "Meisam / Site Title"
 title_separator          : "-"
 name                     : &name "Meisam Mohammady"
 description              : &description "personal description"
