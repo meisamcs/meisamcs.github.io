@@ -83,7 +83,7 @@ analytics:
 # Site Author
 author:
   name             : "Meisam"
-  avatar           : "/images/profilepic.jpg"
+  avatar           : "/images/foo-bar-identity.jpg"
   bio              : "Your biography for the left-hand sidebar"
   location         : "Location"
   employer         :
