@@ -173,7 +173,8 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
-
+ output_formats:
+    webp: "-resize 800x"
 
 # Collections
 collections:
