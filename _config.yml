@@ -84,7 +84,6 @@ analytics:
 author:
   name             : "Meisam"
   avatar           : "profile.png"
-  <img src="https://meisamcs/meisamcs.github.io/images/profile.png" width=50% height=50%>
   bio              : "Your biography for the left-hand sidebar"
   location         : "Location"
   employer         :
