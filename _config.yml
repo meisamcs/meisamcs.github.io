@@ -8,6 +8,8 @@
 # Site Settings
 locale                   : "en-US"
 title                    : "Dr. Meisam Mohammady"
+
+  avatar           : "profile.jpg"
 title_separator          : "-"
 name                     : &name "Meisam Mohammady"
 description              : &description "personal description"
@@ -84,7 +86,6 @@ analytics:
 author:
   name             : "Meisam"
 
-  avatar           : "profile.jpg"
   
   bio              : "Your biography for the left-hand sidebar"
   location         : "Location"
