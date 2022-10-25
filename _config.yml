@@ -84,9 +84,7 @@ analytics:
 author:
   name             : "Meisam"
 
-  avatar           : "![test1](./images/profile.jpg)
-
-<img src="./images/profile.jpg" width=240 height=190>"
+  avatar           : "profile.jpg"
   
   bio              : "Your biography for the left-hand sidebar"
   location         : "Location"
