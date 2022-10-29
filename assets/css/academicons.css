@@ -325,3 +325,10 @@
 .fa.fa-pull-right {
   margin-left: .3em;
 }
+.img {
+
+  height: auto;
+
+  max-width: 100%;
+
+}
