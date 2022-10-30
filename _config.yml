@@ -83,7 +83,7 @@ analytics:
 # Site Author
 author:
   name             : "Meisam"
-  avatar           : "profile.jpg"
+  avatar           : <img src="https://github.com/meisamcs/meisamcs.github.io/blob/master/images/profile.jpg" width="10" height="10"> 
   bio              : "Your biography for the left-hand sidebar"
   location         : "Location"
   employer         :
