@@ -83,7 +83,7 @@ analytics:
 # Site Author
 author:
   name             : "Meisam"
-  avatar           : ![test1](./images/profile.jpg) <img src="./images/profile.jpg" width="0.5" height="0.5"> 
+  avatar           : ![test1](./images/profile.jpg) <img src="./images/profile.jpg" width="15" height="35"> 
   bio              : "Your biography for the left-hand sidebar"
   location         : "Location"
   employer         :
