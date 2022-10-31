@@ -22,7 +22,7 @@ description              : &description "personal description"
 url                      : https://meisamcs.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "meisamcs/meisamcs.github.io"
-teaser                   :  "500x300.png" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+#teaser                   :  "500x300.png" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
@@ -91,7 +91,7 @@ analytics:
 # Site Author
 author:
   name: 
-  avatar           :  <a href="https://meisamcs.github.io"> <img src="http://meisamcs.github.io/images/profilepic.jpg" align="left" width=240 height=190></a> 
+  avatar           :  <a href="https://meisamcs.github.io"> <img src="http://meisamcs.github.io/images/profilepic.jpg" width=240 height=190></a> 
   bio              : "Assistant Professor, Department of Computer Science"
   location         : "Ames, IA, USA"
   employer         : "Iowa State University"
