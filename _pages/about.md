@@ -1,17 +1,16 @@
 ---
-permalink: /
-title: "Dr. Meisam Mohammady
-DEPARTMENT OF COMPUTER SCIENCE, IOWA STATE UNIVERSITY"
-excerpt: "Dr. Yuan Hong is an Associate Professor in the Department of Computer Science & Engineering at University of Connecticut (UConn) and affiliated with the Connecticut Advanced Computing Center (CACC). Prior to joining UConn, he was an Assistant Professor in Computer Science and Cybersecurity Program Director at Illinois Institute of Technology. He received his Ph.D degree from Rutgers University in 2014. Before that, he received his M.Sc degree from Concordia University, Montreal, Canada, and B.Sc degree from Beijing Institute of Technology, respectively. He is a recipient of the NSF CAREER Award and Cisco Research Award. He also received a National Physics Olympiad Prize in China.
-
-His research focuses on Differential Privacy (both theory and applications), Secure Multiparty Computation (applied cryptography), Machine Learning Security and Privacy (both attacks and defenses), Cyber-Physical Systems Security and Privacy (IoT, ITS and V2X), and Optimization. His research contributions are published in top CS conferences and journals, such as S&P/Oakland, CCS, PETS, KDD, ECCV, EMNLP, VLDB, ICDE, EDBT, AAMAS, CIKM, ICDCS, ICDM, TDSC, TIFS, TOPS and TKDE. He is a Senior Member of the IEEE (2018), and his research is supported by multiple NSF (e.g., CAREER, SaTC, and OAC) and AFOSR awards."
+permalink: 
+title: ""
+excerpt: ""
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+Dr. Yuan Hong is an Associate Professor in the Department of Computer Science & Engineering at University of Connecticut (UConn) and affiliated with the Connecticut Advanced Computing Center (CACC). Prior to joining UConn, he was an Assistant Professor in Computer Science and Cybersecurity Program Director at Illinois Institute of Technology. He received his Ph.D degree from Rutgers University in 2014. Before that, he received his M.Sc degree from Concordia University, Montreal, Canada, and B.Sc degree from Beijing Institute of Technology, respectively. He is a recipient of the NSF CAREER Award and Cisco Research Award. He also received a National Physics Olympiad Prize in China.
+
+His research focuses on Differential Privacy (both theory and applications), Secure Multiparty Computation (applied cryptography), Machine Learning Security and Privacy (both attacks and defenses), Cyber-Physical Systems Security and Privacy (IoT, ITS and V2X), and Optimization. His research contributions are published in top CS conferences and journals, such as S&P/Oakland, CCS, PETS, KDD, ECCV, EMNLP, VLDB, ICDE, EDBT, AAMAS, CIKM, ICDCS, ICDM, TDSC, TIFS, TOPS and TKDE. He is a Senior Member of the IEEE (2018), and his research is supported by multiple NSF (e.g., CAREER, SaTC, and OAC) and AFOSR awards.[this Github repository](https://github.com/staeiou/staeiou.github.io).
 
 A data-driven personal website
 ======
