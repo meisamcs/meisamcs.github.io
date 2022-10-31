@@ -82,8 +82,8 @@ analytics:
 
 # Site Author
 author:
-  name             : "Meisam"
-  avatar           : <a href="https://meisamcs.github.io"><img src="http://meisamcs.github.io/images/profile.jpg" align="left" height="48" width="48" ></a>
+  name             : ""
+  avatar           : <a href="https://meisamcs.github.io"><img src="http://meisamcs.github.io/images/profile.jpg" align="left" width=240 height=190></a>
   bio              : "Your biography for the left-hand sidebar"
   location         : "Location"
   employer         :
