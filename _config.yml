@@ -8,7 +8,7 @@
 # Site Settings
 
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Dr. Meisam Mohammady"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
@@ -91,8 +91,8 @@ analytics:
 # Site Author
 author:
   name: 
-  avatar           :  <a href="https://meisamcs.github.io"> <img src="http://meisamcs.github.io/images/profilepic.jpg" alt="images/profilepic" align="left" width=240 height=190></a> 
-  bio              : "Privacy Enhancing Technologies, Computational Learning Theory, Secure Multiparty Computation, Responsible AI"
+  avatar           :  <a href="https://meisamcs.github.io"> <img src="http://meisamcs.github.io/images/profilepic.jpg" alt="./images/profilepic" align="left" width=240 height=190></a> 
+  bio              : "Assistant Professor, Department of Computer Science"
   location         : "Ames, IA, USA"
   employer         : "Iowa State University"
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
