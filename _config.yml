@@ -10,7 +10,9 @@ locale                   : "en-US"
 title                    : "Dr. Meisam Mohammady"
 title_separator          : "-"
 name                     : &name "Meisam Mohammady"
-description              : &description "personal description"
+description              : &description "Dr. Yuan Hong is an Associate Professor in the Department of Computer Science & Engineering at University of Connecticut (UConn) and affiliated with the Connecticut Advanced Computing Center (CACC). Prior to joining UConn, he was an Assistant Professor in Computer Science and Cybersecurity Program Director at Illinois Institute of Technology. He received his Ph.D degree from Rutgers University in 2014. Before that, he received his M.Sc degree from Concordia University, Montreal, Canada, and B.Sc degree from Beijing Institute of Technology, respectively. He is a recipient of the NSF CAREER Award and Cisco Research Award. He also received a National Physics Olympiad Prize in China.
+
+His research focuses on Differential Privacy (both theory and applications), Secure Multiparty Computation (applied cryptography), Machine Learning Security and Privacy (both attacks and defenses), Cyber-Physical Systems Security and Privacy (IoT, ITS and V2X), and Optimization. His research contributions are published in top CS conferences and journals, such as S&P/Oakland, CCS, PETS, KDD, ECCV, EMNLP, VLDB, ICDE, EDBT, AAMAS, CIKM, ICDCS, ICDM, TDSC, TIFS, TOPS and TKDE. He is a Senior Member of the IEEE (2018), and his research is supported by multiple NSF (e.g., CAREER, SaTC, and OAC) and AFOSR awards."
 url                      : https://meisamcs.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 #repository               : "meisamcs/meisamcs.github.io"
