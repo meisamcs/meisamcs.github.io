@@ -5,23 +5,15 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
-
+# Site Settings
 locale                   : "en-US"
-title                    : "Dr. Meisam Mohammady"
+title                    : "Your Name / Site Title"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
-
-
-#locale                   : "en-US"
-#title                    : "Dr. Meisam Mohammady"
-#title_separator          : "-"
-#name                     : "Meisam Mohammady"
-#description              : "Dr." 
-url                      : https://meisamcs.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : ""# the subpath of your site, e.g. "/blog"
-repository               : "meisamcs/meisamcs.github.io"
-
+url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
+repository               : "academicpages/academicpages.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -89,10 +81,10 @@ analytics:
 # Site Author
 author:
   name             : "Your Sidebar Name"
-  avatar           :  "profile.jpg"
-   bio              : "Assistant Professor, Department of Computer Science"
-  location         : "Ames, IA, USA"
-  employer         : "Iowa State University"
+  avatar           : "profile.png"
+  bio              : "Your biography for the left-hand sidebar"
+  location         : "Location"
+  employer         :
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "http://yourfullgooglescholarurl.com"
   email            :
