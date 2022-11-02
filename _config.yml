@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 locale                   : "en-US"
-title                    : "Meisam Mohammady"
+title                    : "Dr. Meisam Mohammady"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
