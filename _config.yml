@@ -1,4 +1,4 @@
-# Welcome to Jekyll!
+m# Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
@@ -91,7 +91,7 @@ analytics:
 # Site Author
 author:
   name: 
-  avatar           :  <a href="https://meisamcs.github.io"> <img src="https://meisamcs.github.io/images/bio-photo-2.jpg" align="left" alt="dd"> </a>
+  avatar           :  <a href="https://meisamcs.github.io"> <img src="https://meisamcs.github.io/meisam.png" align="left" alt="dd"> </a>
   bio              : "Assistant Professor, Department of Computer Science"
   location         : "Ames, IA, USA"
   employer         : "Iowa State University"
