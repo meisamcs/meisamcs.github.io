@@ -91,7 +91,7 @@ analytics:
 # Site Author
 author:
   name: 
-  avatar           :  <a href="https://meisamcs.github.io"> <img src="https://meisamcs.github.io/images/profilepic.jpg" align="left" width="180" height="200"> </a>
+  avatar           :  <a href="https://meisamcs.github.io"> <img src="https://meisamcs.github.io/images/profilepic.jpg" align="left" height="48" width="48"> </a>
   bio              : "Assistant Professor, Department of Computer Science"
   location         : "Ames, IA, USA"
   employer         : "Iowa State University"
