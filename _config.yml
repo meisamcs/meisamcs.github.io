@@ -18,7 +18,7 @@ description              : &description "personal description"
 #title_separator          : "-"
 #name                     : "Meisam Mohammady"
 #description              : "Dr." 
-url                      : https://meisamcs.github.io# the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://meisamcs.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : ""# the subpath of your site, e.g. "/blog"
 repository               : "meisamcs/meisamcs.github.io"
 
