@@ -1,11 +1,9 @@
-m# Welcome to Jekyll!
+# Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
-
-# Site Settings
 
 locale                   : "en-US"
 title                    : "Meisam Mohammady"
@@ -22,14 +20,12 @@ description              : &description "personal description"
 url                      : https://meisamcs.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "meisamcs/meisamcs.github.io"
-#teaser                   :  "500x300.png" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
 talkmap_link             : false #change to true to add link to talkmap on talks page
-#remote_theme             : pages-themes/minimal@v0.2.0
-
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
@@ -90,14 +86,14 @@ analytics:
 
 # Site Author
 author:
-  name: 
+  name             : "Your Sidebar Name"
   avatar           :  <a href="https://meisamcs.github.io"> <img src="https://meisamcs.github.io/images/profile.jpg" align="left" height="180" width="180"> </a>
   bio              : "Assistant Professor, Department of Computer Science"
   location         : "Ames, IA, USA"
   employer         : "Iowa State University"
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "https://scholar.google.ca/citations?user=UL-3sUgAAAAJ&hl=en"
-  email            : meisam AT iastate DOT edu
+  googlescholar    : "http://yourfullgooglescholarurl.com"
+  email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -106,6 +102,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
+  github           : "academicpages"
   google_plus      :
   keybase          :
   instagram        :
@@ -161,9 +158,7 @@ keep_files:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-runs:
-  using: 'node16'
-  main: 'main.js'
+
 # Conversion
 markdown: kramdown
 highlighter: rouge
