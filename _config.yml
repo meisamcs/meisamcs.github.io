@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Meisam Mohammady"
-  avatar           : "meisam.png"
+  avatar           :  <a href="https://meisamcs.github.io"> <img src="https://meisamcs.github.io/images/profile.jpg" align="left" height="180" width="180"> </a>
   bio             : "Assistant Professor, Department of Computer Science"
   location         : "Ames, IA, USA"
   employer         : "Iowa State University"
