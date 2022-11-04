@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Meisam Mohammady"
-  avatar           :<div style="text-align: left;"><img src="https://meisamcs.github.io/images/profile.jpg" width="100" alt="My Image" /></div>
+  avatar           :<img rc="https://meisamcs.github.io/images/profile.jpg"   style="height:75px;width:130px;"  />
   bio              : "Your biography for the left-hand sidebar"
   location         : "Location"
   employer         :
