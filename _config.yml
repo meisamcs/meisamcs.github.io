@@ -56,7 +56,7 @@ alexa_site_verification  :
 yandex_site_verification :
 
 # Social Sharing
-twitter                  : 
+twitter                  : "https://twitter.com/MohammadyMeisam"
   username               : "https://twitter.com/MohammadyMeisam"
 facebook:
   username               :
@@ -87,7 +87,7 @@ author:
   employer         : "Iowa State University"
   #pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.ca/citations?user=UL-3sUgAAAAJ&hl=en"
-  email            : meisam AT iastate .DOT edu
+  #email            : meisam AT iastate DOT edu
   twitter.         : "https://twitter.com/MohammadyMeisam"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -98,7 +98,7 @@ author:
   facebook         :
 
   foursquare       :
-  github           : "academicpages"
+  #github           : "academicpages"
   google_plus      :
   keybase          :
   instagram        :
