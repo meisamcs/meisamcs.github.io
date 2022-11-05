@@ -8,7 +8,6 @@
 # Site Settings
 locale                   : "en-US"
 #title                   : "Meisam Mohammady"
-E-mail                   : "meisam AT iastate DOT edu"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
@@ -84,7 +83,7 @@ analytics:
 author:
   name             : "Meisam Mohammady"
   avatar           : "profilepic.jpg"
-  bio              : "Assistant Professor, Department of Computer Science"
+  bio              : "Assistant Professor, Department of Computer Science                E-mail: meisam AT iastate DOT edu"
   location         : "Ames, IA, USA"
   employer         : "Iowa State University"
   #pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
