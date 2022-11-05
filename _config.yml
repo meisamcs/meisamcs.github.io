@@ -7,7 +7,8 @@
 
 # Site Settings
 locale                   : "en-US"
-#title                    : "Meisam Mohammady"
+#title                   : "Meisam Mohammady"
+E-mail                   : "meisam AT iastate DOT edu"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
