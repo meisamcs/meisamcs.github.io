@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Meisam Mohammady"
-  avatar           : "./images/profilepic.jpg"
+  avatar           : "profilepic.jpg"
   bio             : "Assistant Professor, Department of Computer Science"
   location         : "Ames, IA, USA"
   employer         : "Iowa State University"
