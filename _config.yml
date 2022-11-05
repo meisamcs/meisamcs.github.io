@@ -83,7 +83,8 @@ analytics:
 author:
   name             : "Meisam Mohammady"
   avatar           : "profilepic.jpg"
-  bio              : "Assistant Professor, Department of Computer Science   Email : meisam AT iastate DOT edu"
+  bio              : "Assistant Professor, Department of Computer Science"
+  E-mail           : "meisam AT iastate DOT edu"
   location         : "Ames, IA, USA"
   employer         : "Iowa State University"
   #pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
