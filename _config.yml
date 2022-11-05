@@ -81,8 +81,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Meisam Mohammady
-  , E-mail           : "meisam AT iastate DOT edu"
+  name             : "Meisam Mohammady"
   avatar           : "profilepic.jpg"
   bio              : "Assistant Professor, Department of Computer Science"
   location         : "Ames, IA, USA"
