@@ -15,7 +15,7 @@ Meisam's research focuses on developing responsible (Private, Adversarially Robu
 
 <br>
 
-<For Prospective Students: I am looking for prospective Ph.D students and research interns. If you are interested in working with me, feel free to send me your CV. Graduate admission information can be found here.="BLUE">
+<p style="color:blue;">For Prospective Students: I am looking for prospective Ph.D students and research interns. If you are interested in working with me, feel free to send me your CV. Graduate admission information can be found here.</p>
 
 
 
