@@ -15,7 +15,7 @@ Meisam's research focuses on developing responsible (Private, Adversarially Robu
 
 <br>
 
-<p style="color:blue;">For Prospective Students: I am looking for prospective Ph.D students and research interns. If you are interested in working with me, feel free to send me your CV. Graduate admission information can be found here.</p>
+<p style="color:blue;"> For Prospective Students: I am always looking for postdocs, Ph.D. students, visiting scholars/students, and undergraduate researchers. Please email your application materials to Dr. Meisam Mohammady if you are interested in our research. Graduate admission information can be found</p>  <p style="color:rede;"> here </p>.
 
 
 
