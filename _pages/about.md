@@ -15,7 +15,7 @@ Meisam's research focuses on developing responsible (Private, Adversarially Robu
 
 <br>
 
-<p style="color:blue;"> For Prospective Students: I am always looking for postdocs, Ph.D. students, visiting scholars/students, and undergraduate researchers. Please email your application materials to Dr. Meisam Mohammady if you are interested in our research. Graduate admission information can be found</p> <a href="https://www.cs.iastate.edu/computer-science-graduate-admissions">here </a>.
+<p style="color:blue;"> For Prospective Students: I am always looking for postdocs, Ph.D. students, visiting scholars/students, and undergraduate researchers. Please email your application materials to Dr. Meisam Mohammady if you are interested in our research. Graduate admission information can be found <a href="https://www.cs.iastate.edu/computer-science-graduate-admissions">here </a>.
 
 
 
