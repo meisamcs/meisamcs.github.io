@@ -12,7 +12,6 @@ Dr. Meisam Mohammady is an Assistant Professor in <a href="https://www.cs.iastat
 
 Meisam's research focuses on developing responsible (Private, Adversarially Robust and Fair) machine learning techniques with provable accuracy, differential privacy, privacy preserving cloud security auditing, security issues pertaining to the cyberphysical systems, and the internet of things. His research contributions are published in top CS conferences and journals, such as CCS, TDSC, TOPS and TKDE.
 
-<br>
 
 <p style="color:blue;bold"> I am always looking for postdocs, Ph.D. students, visiting scholars/students, and undergraduate researchers. Please email your application materials to Dr. Meisam Mohammady if you are interested in our research. Graduate admission information can be found <a href="https://www.cs.iastate.edu/computer-science-graduate-admissions"> here </a>.
 
