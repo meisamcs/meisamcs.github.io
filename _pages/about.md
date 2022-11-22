@@ -21,7 +21,7 @@ Meisam's research focuses on developing responsible (Private, Adversarially Robu
 <p style="color:black;">
   
 Recent News
-  
+  <p style="color:black;">
 ======
 
   <ul>
