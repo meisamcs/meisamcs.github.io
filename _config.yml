@@ -10,7 +10,7 @@ locale                   : "en-US"
 #title                   : "Meisam Mohammady"
 title_separator          : "-"
 name                     : &name "Your Name"
-theme                    : minima
+remote_theme             : pages-themes/architect@v0.2.0
 description              : &description "personal description"
 url                      : https://meisamcs.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -253,6 +253,7 @@ timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database
 
 # Plugins
 plugins:
+  - jekyll-remote-theme
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
