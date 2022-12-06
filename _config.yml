@@ -10,7 +10,7 @@ locale                   : "en-US"
 #title                   : "Meisam Mohammady"
 title_separator          : "-"
 name                     : &name "Your Name"
-remote_theme             : pages-themes/architect@v0.2.0
+remote_theme             : pages-themes/cayman@v0.2.0
 description              : &description "personal description"
 url                      : https://meisamcs.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
