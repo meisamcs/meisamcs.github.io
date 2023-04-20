@@ -23,7 +23,7 @@ Meisam's research focuses on developing responsible (Private, Adversarially Robu
 <h2>Recent News</h2>
   <p style="color:black;">
 
-  <ul>
+  <ul class="blog-title-list">
   <li> December 2022: Served as subreviewer in  member in IEEE TDSC 2022 </li>
   <li> November 2022: Served as PC member in IEEE TKDE 2022 </li>
   <li> October 2022: Served as Session Chair in WPES ACM CCS 2022 </li>
