@@ -2,8 +2,8 @@
    BASE ELEMENTS
    ========================================================================== */
 
-   @import url('https://fonts.googleapis.com/css2?family=Chivo+Mono&family=Lato&display=swap');
-      
+   @import url('https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display&display=swap');
+
    html {
   /* sticky footer fix */
   position: relative;
@@ -16,7 +16,7 @@ body {
   padding-bottom: 9em;
   color: $text-color;
   /*font-family: $global-font-family; */
-  font-family: 'Lato', monospace !important;
+  font-family: 'Playfair Display', serif !important;
   line-height: 1.5;
 
   &.overflow--hidden {
