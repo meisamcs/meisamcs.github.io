@@ -42,6 +42,6 @@ Meisam's research focuses on developing responsible (Private, Adversarially Robu
 {% include base_path %}
 <!-- {% capture written_year %}'None'{% endcapture %} -->
 {% for post in site.posts %}
-  {% include archive-single.html %}
+  {% include recent-news-title.html %}
 {% endfor %}
 
