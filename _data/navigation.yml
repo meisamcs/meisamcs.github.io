@@ -30,4 +30,7 @@ main:
     - title: "Group"
       url: /group/
 
+    - Links: "Links"
+      url: /links/
+
     
