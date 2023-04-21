@@ -34,4 +34,19 @@ Meisam's research focuses on developing responsible (Private, Adversarially Robu
   <li> January 2022: One Us patent filed "Partition-based prefix preserving anonymization approach for network traces containing IP addresses" </li>
   <li> October 2021: One paper accepted by is accepted by IEEE TKDE </li>
   <li> August 2021: One paper accepted by ACM Transactions on Privacy and Security (TOPS)  </li>
+
+
 </ul>  
+
+
+{% include base_path %}
+{% capture written_year %}'None'{% endcapture %}
+{% for post in site.posts %}
+  {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+  {% if year != written_year %}
+    <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
+    {% capture written_year %}{{ year }}{% endcapture %}
+  {% endif %}
+  {% include archive-single.html %}
+{% endfor %}
+
