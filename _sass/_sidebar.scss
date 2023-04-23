@@ -12,11 +12,7 @@
 
 
 .sidebar {
-    background: #f4f4f4;
-    text-align: center;
-    height: 100vh;
-    width: 20%;
-    padding-top: 50px;
+ 
   -webkit-transform: translate3d(0, 0 , 0);
           transform: translate3d(0, 0 , 0);
 
@@ -24,6 +20,11 @@
   margin-bottom: 1em;
 
   @include breakpoint($large) {
+    background: #f4f4f4;
+    text-align: center;
+    height: 100vh;
+    width: 20%;
+    padding-top: 50px;
 
     @include span(2 of 12);
     opacity: 1;
@@ -63,14 +64,7 @@
     margin: auto;
   }
 
-  @media only screen and (max-width: 925){
-    /*Tablets [601px -> 1200px]*/
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 3em;
-    height: auto;
-    }
+
 }
 
 .sidebar__right {
