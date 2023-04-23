@@ -20,9 +20,6 @@
   -webkit-transform: translate3d(0, 0 , 0);
           transform: translate3d(0, 0 , 0);
 
-
-
-
   @include clearfix();
   margin-bottom: 1em;
 
@@ -65,6 +62,15 @@
     width: 100%;
     margin: auto;
   }
+
+  @media only screen and (max-width: 925){
+    /*Tablets [601px -> 1200px]*/
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 3em;
+    height: auto;
+    }
 }
 
 .sidebar__right {
@@ -82,14 +88,7 @@
     width: $right-sidebar-width;
   }
 
-  @media only screen and (max-width: 925){
-    /*Tablets [601px -> 1200px]*/
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 3em;
-    height: auto;
-    }
+
 }
 
 
