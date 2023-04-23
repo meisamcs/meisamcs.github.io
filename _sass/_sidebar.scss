@@ -10,6 +10,7 @@
     top: 0.1em !important;
    }
 
+
 .sidebar {
     background: #f4f4f4;
     text-align: center;
@@ -19,16 +20,14 @@
   -webkit-transform: translate3d(0, 0 , 0);
           transform: translate3d(0, 0 , 0);
 
+
+
+
   @include clearfix();
   margin-bottom: 1em;
 
   @include breakpoint($large) {
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 3em;
-    height: auto;
-    
+
     @include span(2 of 12);
     opacity: 1;
     -webkit-transition: opacity 0.2s ease-in-out;
@@ -82,7 +81,19 @@
   @include breakpoint($x-large) {
     width: $right-sidebar-width;
   }
+
+  @media only screen and (max-width: 925){
+    /*Tablets [601px -> 1200px]*/
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 3em;
+    height: auto;
+    }
 }
+
+
+
 
 /*
    Author profile and links
