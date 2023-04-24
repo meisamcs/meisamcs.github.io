@@ -254,11 +254,11 @@
     }
 
     @include breakpoint($large) {
-        display: none;
+        display: none !important;
     }
   }
 
-  .hidden-links {
+  .hidden-links { 
     position: absolute;
     top: 100%;
     right: 0;
