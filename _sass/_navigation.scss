@@ -207,6 +207,9 @@
   }
 
   .visible-links {
+    @include breakpoint($large) {
+        display: none;
+    }
     display: table;
 
     li {
@@ -253,9 +256,7 @@
       }
     }
 
-    @include breakpoint($large) {
-        display: none !important;
-    }
+    
   }
 
   .hidden-links { 
