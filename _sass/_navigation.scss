@@ -208,9 +208,10 @@
 
   .visible-links {
     @include breakpoint($large) {
-        display: none;
+        display: table;
     }
-    display: table;
+    
+    display: none;
 
     li {
       display: table-cell;
@@ -220,6 +221,7 @@
         font-weight: bold;
 
         a {
+
           margin-left: 0;
         }
       }
