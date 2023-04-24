@@ -23,7 +23,7 @@
     background: #f4f4f4;
     text-align: center;
     height: 100vh;
-    width: 20%;
+    width: 20% !important;
     padding-top: 50px;
 
     @include span(2 of 12);
