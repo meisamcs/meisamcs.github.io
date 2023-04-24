@@ -207,11 +207,8 @@
   }
 
   .visible-links {
-    @include breakpoint($large) {
-        display: table;
-    }
+    display: table;
     
-    display: none;
 
     li {
       display: table-cell;
