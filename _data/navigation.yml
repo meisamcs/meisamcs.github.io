@@ -9,20 +9,8 @@ main:
     - title: "Research"
       url: /research/
 
-    - title: "Talks"
-      url: /talks/
-
     - title: "Teaching"
       url: /teaching/
-
-    - title: "Activities"
-      url: /activities/
-
-    - title: "Blog"
-      url: /blog/
-
-    - title: "CV"
-      url: /files/cv.pdf
 
     - title: "Github"
       url: /github/
