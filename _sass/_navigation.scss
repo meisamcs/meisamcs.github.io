@@ -181,9 +181,11 @@
     display: block;
     margin: 0 1rem;
     font-size: 0.9em;
-    padding: 0.5rem 0;
+    padding: 0.5rem;
+    background: #2b9323;
+    border-radius: 5px;
     /*color: $masthead-link-color;*/
-    color: #e9e9e9;
+    color: #ffffff;
     text-decoration: none;
     cursor: pointer;
     font-family: 'lato', sans-serif;
@@ -231,6 +233,7 @@
     }
 
     a {
+
       position: relative;
 
       &:before {
@@ -266,7 +269,7 @@
     padding: 5px;
     border: 1px solid $border-color;
     border-radius: $border-radius;
-    background: #6b1f1f;
+    background: #2b9323;
     box-shadow: 0 0 10px rgba(#000, 0.25);
     
 

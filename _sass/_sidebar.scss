@@ -25,7 +25,7 @@
   margin-bottom: 1em;
 
   @include breakpoint($large) {
-    background: #f4f4f4;
+    background: transparent;
     text-align: center;
     height: 100vh;
     width: 20% !important;
@@ -101,6 +101,7 @@
   display: table-cell;
   vertical-align: top;
   min-width: 70px;
+
   // set width only, for non-square avatars
   // height: 36px;
 
@@ -114,6 +115,7 @@
     border-radius: 50%;
     min-width: 70px !important;
     max-width: 70px;
+    box-shadow: 0 0 2px 0px #2b9323;
 
     @include breakpoint($large) {
       padding: 5px;
@@ -143,6 +145,7 @@
 .author__name {
   margin: 0;
   font-family: 'Lato', sans-serif;
+  color: #b43333;
 
   @include breakpoint($large) {
     margin-top: 10px;

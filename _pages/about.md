@@ -13,17 +13,15 @@ redirect_from:
 Meisam's research focuses on developing responsible (Private, Adversarially Robust and Fair) Machine Learning techniques including Federated Learning with provable accuracy, Differential Privacy, privacy preserving cloud security auditing, security cyberphysical systems, and the internet of things. His research contributions are published in top CS conferences and journals, such as CCS, TDSC, TOPS and TKDE.
 
 
-<p style="color:blue;"> I am always looking for postdocs, Ph.D. students, visiting scholars/students, and undergraduate researchers. Please email your application materials to Dr. Meisam Mohammady if you are interested in our research. Graduate admission information can be found <a href="https://www.cs.iastate.edu/computer-science-graduate-admissions"> here </a>.
+<p style="color: #109c28;"> I am always looking for postdocs, Ph.D. students, visiting scholars/students, and undergraduate researchers. Please email your application materials to Dr. Meisam Mohammady if you are interested in our research. Graduate admission information can be found <a href="https://www.cs.iastate.edu/computer-science-graduate-admissions"> here </a>.</p>
 
  <br>
   
  <br>
-<p style="color:black;">
   
 <h2>Recent News</h2>
-  <p style="color:black;">
 
-  <ul class="blog-title-list">
+  <ul class="blog-title-list" style="background: #eef7eb;padding: 3em">
   <li> December 2022: Served as subreviewer in  member in IEEE TDSC 2022 </li>
   <li> November 2022: Served as PC member in IEEE TKDE 2022 </li>
   <li> October 2022: Served as Session Chair in WPES ACM CCS 2022 </li>
