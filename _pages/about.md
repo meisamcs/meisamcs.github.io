@@ -38,10 +38,10 @@ Meisam's research focuses on developing responsible (Private, Adversarially Robu
 
 </ul>  
 
-<h2>Recent Blog</h2>
+<!-- <h2>Recent Blog</h2>
 {% include base_path %}
 <!-- {% capture written_year %}'None'{% endcapture %} -->
 {% for post in site.posts %}
   {% include recent-news-title.html %}
 {% endfor %}
-
+ -->
