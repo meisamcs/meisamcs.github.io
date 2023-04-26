@@ -32,6 +32,7 @@
     padding-right: 6% !important;
     padding-top: 50px !important;
     text-align: justify;
+    margin: 0 auto;
 
   @include breakpoint($large) {
     @include span(10 of 12 last);
