@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                   : "Meisam Mohammady"
+title                   : "Home"
 title_separator          : "-"
 name                     : &name "Your Name"
 remote_theme             : pages-themes/cayman@v0.2.0
