@@ -31,13 +31,15 @@
     padding-left: 5% !important;
     padding-right: 6% !important;
     padding-top: 50px !important;
-    text-align: justify;
+    text-align: center;
     margin: 0 auto;
 
   @include breakpoint($large) {
     @include span(10 of 12 last);
     @include prefix(0.5 of 12);
     @include suffix(2 of 12);
+    text-align: justify;
+
   }
 
   .page__inner-wrap {
