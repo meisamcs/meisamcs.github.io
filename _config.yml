@@ -9,9 +9,9 @@
 locale                   : "en-US"
 title                   : "Home"
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : &name "Meisam Mohammady"
 remote_theme             : pages-themes/cayman@v0.2.0
-description              : &description "personal description"
+description              : &description "Dr. Meisam Mohammady is an Assistant Professor in the Department of Computer Science at Iowa State University (ISU). Prior to joining ISU, he was a Research Scientist at CSIRO Data61 which is the Australia’s leading digital research network, helping various partners across business, government and industry to solve a wide range of data-centric problems. "
 url                      : https://meisamcs.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "meisamcs/meisamcs.github.io"
