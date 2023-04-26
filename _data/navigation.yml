@@ -12,9 +12,6 @@ main:
     - title: "Teaching"
       url: /teaching/
 
-    - title: "Github"
-      url: /github/
-
     - title: "Group"
       url: /group/
 
