@@ -2,17 +2,7 @@
    SINGLE PAGE/POST
    ========================================================================== */
 
-   ol {list-style: none; counter-reset: li}
 
-   ol li::before {content: counter(li); color: #186a12;
-    display: inline-block; width: 1em; margin-left: -1.5em;
-    margin-right: 0.5em; text-align: right; direction: rtl}
-
-  
-ul {list-style: none}
-li::before {content: "\25AA"; color: #186a12;
-    display: inline-block; width: 1em;
-    margin-left: -1em}
     
 #main {
   @include container;
@@ -81,6 +71,34 @@ li::before {content: "\25AA"; color: #186a12;
 }
 
 .page__content {
+
+
+    ol {
+        list-style: none; 
+        counter-reset: li;
+        li::before {
+            content: counter(li); 
+            color: #186a12;
+            display: inline-block; width: 1em; margin-left: -1.5em;
+            margin-right: 0.5em; 
+            text-align: right; 
+            direction: rtl
+        }
+    }
+ 
+   
+    ul {
+        list-style: none;
+
+    
+        li::before {
+            content: "\25AA"; 
+            color: #186a12;
+            display: inline-block; width: 1em;
+            margin-left: -1em
+        }
+    }
+
     b {color: #8b290b;}
 
     h4 {
