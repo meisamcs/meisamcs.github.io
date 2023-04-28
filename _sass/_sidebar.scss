@@ -98,8 +98,8 @@
    ========================================================================== */
 
 .author__avatar {
-  display: table-cell;
-  vertical-align: top;
+  //display: table-cell;
+  //vertical-align: top;
   min-width: 70px;
 
   // set width only, for non-square avatars
@@ -128,8 +128,8 @@
 }
 
 .author__content {
-  display: table-cell;
-  vertical-align: top;
+  //display: table-cell;
+  //vertical-align: top;
   padding-left: 15px;
   padding-right: 25px;
   line-height: 1;
@@ -168,8 +168,8 @@
 
 .author__urls-wrapper {
   position: relative;
-  display: table-cell;
-  vertical-align: middle;
+  //display: table-cell;
+  //vertical-align: middle;
   font-family: $sans-serif;
   z-index: 10;
   position: relative;
