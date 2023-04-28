@@ -102,6 +102,7 @@
   //vertical-align: top;
   min-width: 70px;
   max-width: 170px;
+  margin: 0 auto;
 
   // set width only, for non-square avatars
   // height: 36px;
@@ -177,7 +178,7 @@
   z-index: 10;
   position: relative;
   text-align: center;
-  padding: 1em;
+  padding-top: 1em;
   cursor: pointer;
 
   li:last-child {

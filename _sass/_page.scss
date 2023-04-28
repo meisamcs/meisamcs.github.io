@@ -30,11 +30,11 @@
     width: 100% !important;
     padding-left: 5% !important;
     padding-right: 6% !important;
-    padding-top: 50px !important;
-    text-align: center;
+    text-align: justify;
     margin: 0 auto;
 
   @include breakpoint($large) {
+    padding-top: 50px !important;
     width: 78% !important;
     @include span(10 of 12 last);
     @include prefix(0.5 of 12);
