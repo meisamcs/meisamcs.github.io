@@ -11,21 +11,21 @@ author_profile: true
 {% include base_path %}
 <h2>Refereed Publications</h2>
 <ol>
-<li> Meisam Mohammady, Momen Oqaily, Lingyu Wang, Yuan Hong, Habib Louafi, Makan Pourzandi and Mourad Debbabi. “A Multi-view Approach to Preserve Both Privacy and Utility in Network Trace Anonymization.” ACM Transactions on Privacy and Security (TOPS) (formerly known as TISSEC), Accepted, 2020.</li>
- <li>Shangyu Xie, Meisam Mohammady, Han Wang, Yuan Hong, Lingyu Wang, and Jaideep Vaidya. “Generalizing Prefix-Preserving Data Outsourcing: Ensuring both Privacy and Utility.” IEEE Transactions on Knowledge and Data Engineering (TKDE), Accepted , 2020.</li>
- <li>Meisam Mohammady, Shangyu Xie, Yuan Hong, Mengyuan Zhang, Lingyu Wang, Makan Pourzandi, Mourad Debbabi.“R2DP: A Universal and Automated Approach to Optimizing the Randomization Mechanisms of Differential Privacy for Utility Metrics with No Known Optimal Distributions.”ACM Conference on Computer and Communications Security (CCS’ 20), Accepted, 2020 [Acceptance rate: 11%].</li>
-<li>Momen Oqaily, Yosr Jarrya, Meisam Mohammady, Suryadipta Majumdar, Lingyu Wang, Makan Pourzandi and Mourad Debbabi, “ SegGuard: Protecting Audit Data Using Segmentation-based Anonymization for Multi-tenant Cloud Auditing.” IEEE Transactions on Dependable and Secure Computing (TDSC), Published, 2019 [impact factor: 6.864].</li>
-<li> Bingyu Liu, Shangyu Xie, Han Wang, Yuan Hong, Xuegang Ban, Meisam Mohammady. “VTDP: Privately Sanitizing Fine-grained Vehicle Trajectory Data with Boosted Utility.” IEEE Transactions on Dependable and Secure Computing (TDSC), Published, 2019 [impact factor: 6.864].
+<li> Meisam Mohammady, Momen Oqaily, Lingyu Wang, Yuan Hong, Habib Louafi, Makan Pourzandi and Mourad Debbabi. “A Multi-view Approach to Preserve Both Privacy and Utility in Network Trace Anonymization.” ACM Transactions on Privacy and Security (TOPS) (formerly known as TISSEC), <b>Accepted, 2020.</b></li>
+ <li>Shangyu Xie, Meisam Mohammady, Han Wang, Yuan Hong, Lingyu Wang, and Jaideep Vaidya. “Generalizing Prefix-Preserving Data Outsourcing: Ensuring both Privacy and Utility.” IEEE Transactions on Knowledge and Data Engineering (TKDE), <b>Accepted , 2020.</b></li>
+ <li>Meisam Mohammady, Shangyu Xie, Yuan Hong, Mengyuan Zhang, Lingyu Wang, Makan Pourzandi, Mourad Debbabi.“R2DP: A Universal and Automated Approach to Optimizing the Randomization Mechanisms of Differential Privacy for Utility Metrics with No Known Optimal Distributions.”ACM Conference on Computer and Communications Security (CCS’ 20), <b>Accepted, 2020 </b>[Acceptance rate: 11%].</li>
+<li>Momen Oqaily, Yosr Jarrya, Meisam Mohammady, Suryadipta Majumdar, Lingyu Wang, Makan Pourzandi and Mourad Debbabi, “ SegGuard: Protecting Audit Data Using Segmentation-based Anonymization for Multi-tenant Cloud Auditing.” IEEE Transactions on Dependable and Secure Computing (TDSC), <b>Published, 2019 </b>[impact factor: 6.864].</li>
+<li> Bingyu Liu, Shangyu Xie, Han Wang, Yuan Hong, Xuegang Ban, Meisam Mohammady. “VTDP: Privately Sanitizing Fine-grained Vehicle Trajectory Data with Boosted Utility.” IEEE Transactions on Dependable and Secure Computing (TDSC), <b>Published, 2019</b> [impact factor: 6.864].
 </li>
-<li>Suryadipta Majumdar, Azadeh Tabiban, Meisam Mohammady, Alaa Oqaily, Yosr Jarraya, Makan Pourzandi, Lingyu Wang and Mourad Debbabi.“Proactivizer: Transforming Existing Verification Tools into Efficient Solutions for Runtime Security Enforcement.” In Proceedings of the 24th European Symposium on Research in Computer Security (ESORICS’ 19), Published, 2019, [Acceptance rate: 19.5%].
+<li>Suryadipta Majumdar, Azadeh Tabiban, Meisam Mohammady, Alaa Oqaily, Yosr Jarraya, Makan Pourzandi, Lingyu Wang and Mourad Debbabi.“Proactivizer: Transforming Existing Verification Tools into Efficient Solutions for Runtime Security Enforcement.” In Proceedings of the 24th European Symposium on Research in Computer Security (ESORICS’ 19), <b>Published, 2019,</b> [Acceptance rate: 19.5%].
 </li>
 <li>
-Suryadipta Majumdar, Azadeh Tabiban, Meisam Mohammady, Alaa Oqaily, Yosr Jarraya, Makan Pourzandi, Lingyu Wang and Mourad Debbabi.“Multi-Level Proactive Security Auditing for Clouds.” In Proceedings of the 2019 IEEE Conference on Dependable and Secure Computing (DSC’ 19), Published 2019.
+Suryadipta Majumdar, Azadeh Tabiban, Meisam Mohammady, Alaa Oqaily, Yosr Jarraya, Makan Pourzandi, Lingyu Wang and Mourad Debbabi.“Multi-Level Proactive Security Auditing for Clouds.” In Proceedings of the 2019 IEEE Conference on Dependable and Secure Computing (DSC’ 19), <b>Published 2019.</b>
 </li>
-<li>Meisam Mohammady, Lingyu Wang, Yuan Hong, Habib Louafi, Makan Pourzandi and Mourad Debbabi. “Preserving Both Privacy and Utility in Network Trace Anonymization.” In Proceedings of the 25th ACM Conference on Computer and Communications Security (CCS’ 18), Published, 2018 [Acceptance rate: 16.5%].
+<li>Meisam Mohammady, Lingyu Wang, Yuan Hong, Habib Louafi, Makan Pourzandi and Mourad Debbabi. “Preserving Both Privacy and Utility in Network Trace Anonymization.” In Proceedings of the 25th ACM Conference on Computer and Communications Security (CCS’ 18), <b>Published, 2018</b> [Acceptance rate: 16.5%].
 </li>
-<li>Jerome Le Ny and Meisam Mohammady. “Differentially private MIMO filtering for event streams.” IEEE Transactions on Automatic Control, Published, 2018 [impact factor: 5.625].
-[10] Jerome Le Ny and Meisam Mohammady. “Differentially private MIMO filtering for event streams and spatio-temporal monitoring.” In Proceedings of the 53rd IEEE Conference on Decision and Control (CDC’ 14), Published, 2014 [H Index: 118].
+<li>Jerome Le Ny and Meisam Mohammady. “Differentially private MIMO filtering for event streams.” IEEE Transactions on Automatic Control, <b>Published, 2018</b> [impact factor: 5.625].
+[10] Jerome Le Ny and Meisam Mohammady. “Differentially private MIMO filtering for event streams and spatio-temporal monitoring.” In Proceedings of the 53rd IEEE Conference on Decision and Control (CDC’ 14), <b>Published, 2014</b> [H Index: 118].
 </li>
 </ol>
 
