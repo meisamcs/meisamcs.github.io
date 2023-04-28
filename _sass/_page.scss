@@ -73,18 +73,18 @@
 .page__content {
 
 
-    ol {
-        list-style: none; 
-        counter-reset: li;
-        li::before {
-            content: counter(li); 
-            color: #186a12;
-            display: inline-block; width: 1em; margin-left: -1.5em;
-            margin-right: 0.5em; 
-            text-align: right; 
-            direction: rtl
-        }
-    }
+    // ol {
+    //     list-style: none; 
+    //     counter-reset: li;
+    //     li::before {
+    //         content: counter(li); 
+    //         color: #186a12;
+    //         display: inline-block; width: 1em; margin-left: -1.5em;
+    //         margin-right: 0.5em; 
+    //         text-align: right; 
+    //         direction: rtl
+    //     }
+    // }
  
    
     ul {
