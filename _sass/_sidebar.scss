@@ -101,6 +101,7 @@
   //display: table-cell;
   //vertical-align: top;
   min-width: 70px;
+  max-width: 170px;
 
   // set width only, for non-square avatars
   // height: 36px;
@@ -114,7 +115,6 @@
   img {
     border-radius: 50%;
     min-width: 70px !important;
-    max-width: 70px;
     box-shadow: 0 0 2px 0px #2b9323;
 
     @include breakpoint($large) {
@@ -133,6 +133,9 @@
   padding-left: 15px;
   padding-right: 25px;
   line-height: 1;
+  padding-top: 1em;
+  text-align: center;
+
 
   @include breakpoint($large) {
     display: block;
@@ -173,6 +176,8 @@
   font-family: $sans-serif;
   z-index: 10;
   position: relative;
+  text-align: center;
+  padding: 1em;
   cursor: pointer;
 
   li:last-child {
