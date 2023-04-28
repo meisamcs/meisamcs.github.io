@@ -3,7 +3,8 @@
    ========================================================================== */
 
 .masthead {
-    //background: #6b1f1f;
+    background: #25931f;
+    box-shadow: 0 0 3px 1px #627a6a;
     position: relative;
     border-bottom: 1px solid $border-color;
     -webkit-animation: intro 0.3s both;
@@ -12,6 +13,11 @@
           animation-delay: 0.15s;
     z-index: 20;
 
+    @include breakpoint($large) {
+        background: transparent;
+        box-shadow: none;
+      }
+  
   &__inner-wrap {
     @include container;
     @include clearfix;
