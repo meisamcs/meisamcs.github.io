@@ -136,7 +136,7 @@
   padding-left: 15px;
   padding-right: 25px;
   line-height: 1;
-  padding-top: 1em;
+  padding-top: 0em;
   text-align: center;
 
 
@@ -145,6 +145,7 @@
     width: 100%;
     padding-left: 0;
     padding-right: 0;
+    padding-top: 1em;
   }
 }
 
@@ -180,7 +181,7 @@
   z-index: 10;
   position: relative;
   text-align: center;
-  padding-top: 1em;
+  padding-top: 0em;
   cursor: pointer;
 
   li:last-child {
@@ -191,6 +192,7 @@
 
   @include breakpoint($large) {
     display: block;
+    padding-top: 1em;
   }
 
   button {
