@@ -6,11 +6,13 @@
     position: fixed;
     right: 9px;
     border: none;
+    font-size: 1.2em;
+    font-family: 'Lato';
     z-index: 999;
     padding: 0.6em;
-    box-shadow: none;
+    box-shadow: 0 0 3px #312b2b;
     color: #fff;
-    background: green;
+    background: #1e7b24;
 
     @include breakpoint($large){
         visibility: hidden;
@@ -19,7 +21,7 @@
 
 .mobile-menu{
     position: fixed;
-    display: block;
+    visibility: hidden;
     float: right;
     list-style-type: none;
     box-shadow: 0 0 10px #e0dcdc;
@@ -30,9 +32,9 @@
     background: white;
     top: 1.4em;
 
-    @include breakpoint($large){
-        display: none;
-    }
+    // @include breakpoint($large){
+    //     display: none;
+    // }
 
     li{
         border-bottom: 1px solid;
