@@ -10,9 +10,9 @@
     font-family: 'Lato';
     z-index: 999;
     padding: 0.6em;
-    box-shadow: 0 0 3px #312b2b;
+    box-shadow: 0 0 3px #272121;
     color: #fff;
-    background: #1e7b24;
+    background: #2c2e2c;
 
     @include breakpoint($large){
         visibility: hidden;
@@ -25,7 +25,7 @@
     float: right;
     list-style-type: none;
     box-shadow: 0 0 10px #e0dcdc;
-    padding: 1em;
+    
     z-index: 999;
     text-align: center;
     right: 0em;
@@ -40,8 +40,11 @@
         border-bottom: 1px solid;
 
         a{
+        
         text-decoration: none;
         font-family: 'Lato';
+        display: block;
+        padding: 1em;
         }
     }
 }

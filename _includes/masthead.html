@@ -43,8 +43,10 @@
     showHideMenu.addEventListener("click", ()=>{
         if(mobileMenu.style.visibility == "hidden"){
             mobileMenu.style.visibility = 'visible'
-        }else{
+        }else if(mobileMenu.style.visibility == "visible"){
             mobileMenu.style.visibility = "hidden"
+        }else{
+            mobileMenu.style.visibility = 'visible'
         }
     })
  
