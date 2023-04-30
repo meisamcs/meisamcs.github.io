@@ -317,3 +317,25 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
   -webkit-transition: $global-transition;
   transition: $global-transition;
 }
+
+
+.desktop-title{
+    display: none;
+    font-size: 2em; 
+    font-family: 'Lato', sans-serif; 
+    font-weight: bold; 
+    margin-top: 5px;
+
+    @include breakpoint($large){
+        display: block;
+    }
+}
+
+.mobile-title{
+    display: block;
+    font-weight: bold;
+
+    @include breakpoint($large){
+        display: none;
+    }
+}
