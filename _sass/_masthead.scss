@@ -32,9 +32,9 @@
     background: white;
     top: 1.9em;
 
-    // @include breakpoint($large){
-    //     display: none;
-    // }
+    @include breakpoint($large){
+        visibility: hidden;
+    }
 
     li{
         border-bottom: 1px solid;
