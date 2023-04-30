@@ -22,7 +22,7 @@
           transform: translate3d(0, 0 , 0);
 
   @include clearfix();
-  margin-bottom: 1em;
+  margin-bottom: 0em;
 
   @include breakpoint($large) {
     background: transparent;
@@ -30,6 +30,7 @@
     height: 100vh;
     width: 20% !important;
     padding-top: 50px;
+    margin-bottom: 1em;
 
     @include span(2 of 12);
     opacity: 1;
