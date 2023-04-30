@@ -3,6 +3,14 @@
    ========================================================================== */
 #showHideMenu{
     visibility: visible;
+    position: fixed;
+    right: 9px;
+    border: none;
+    z-index: 999;
+    padding: 0.6em;
+    box-shadow: none;
+    color: #fff;
+    background: green;
 
     @include breakpoint($large){
         visibility: hidden;
@@ -18,8 +26,9 @@
     padding: 1em;
     z-index: 999;
     text-align: center;
-    right: 2em;
+    right: 0em;
     background: white;
+    top: 1.4em;
 
     @include breakpoint($large){
         display: none;
