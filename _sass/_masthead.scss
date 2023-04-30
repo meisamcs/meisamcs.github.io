@@ -29,15 +29,16 @@
     text-align: center;
     right: 0.2em;
     background: white;
-    top: 2.5em;
+    top: 2.8em;
 
     @include breakpoint($large){
         visibility: hidden;
     }
 
     li{
-        border-bottom: 1px solid #b4d1b1;
-        background: #162417;
+        border-bottom: 1px solid #ced6ce;
+        border-radius: 4px;
+        background: #161a16;
         margin-bottom: 0;
 
         a{
