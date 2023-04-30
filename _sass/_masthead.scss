@@ -2,6 +2,15 @@
    MASTHEAD
    ========================================================================== */
 
+.mobile-menu{
+    position: absolute;
+    display: flex;
+
+    @include breakpoint($large){
+        display: none;
+    }
+}
+
 .masthead {
     background: #25931f;
     box-shadow: 0 0 3px 1px #627a6a;
@@ -12,10 +21,12 @@
     -webkit-animation-delay: 0.15s;
           animation-delay: 0.15s;
     z-index: 20;
+    display: none;
 
     @include breakpoint($large) {
         background: transparent;
         box-shadow: none;
+        display: block;
       }
   
   &__inner-wrap {
