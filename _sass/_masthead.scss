@@ -25,12 +25,12 @@
     float: right;
     list-style-type: none;
     box-shadow: 0 0 10px #e0dcdc;
-    
+    padding: 0;
     z-index: 999;
     text-align: center;
-    right: 0em;
+    right: 0.2em;
     background: white;
-    top: 1.4em;
+    top: 1.9em;
 
     // @include breakpoint($large){
     //     display: none;
