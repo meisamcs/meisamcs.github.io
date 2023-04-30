@@ -1,6 +1,13 @@
 /* ==========================================================================
    MASTHEAD
    ========================================================================== */
+#showHideMenu{
+    visibility: visible;
+
+    @include breakpoint($large){
+        visibility: hidden;
+    }
+}
 
 .mobile-menu{
     position: fixed;

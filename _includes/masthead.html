@@ -22,8 +22,9 @@
   </div>
 </div>
 
-<ul class="mobile-menu">
-    <button id="showHideMenu">Menu</button>
+<button id="showHideMenu">Menu</button>
+
+<ul id="mobile-menu" class="mobile-menu">
     <li><a href="{{ base_path }}/">{{ site.title }}</a></li>
     {% for link in site.data.navigation.main %}
       {% if link.url contains 'http' %}
@@ -37,10 +38,15 @@
 
   <script>
     const showHideMenu = document.getElementById("showHideMenu")
-    if(showHideMenu.style.visibility == "hidden"){
-        showHideMenu.style.visibility = 'visible'
-    }else{
-        showHideMenu.style.visibility = "hidden"
-    }
+    const mobileMenu = document.getElementById("mobile-menu")
+
+    showHideMenu.addEventListener("click", ()=>{
+        if(mobileMenu.style.visibility == "hidden"){
+            mobileMenu.style.visibility = 'visible'
+        }else{
+            mobileMenu.style.visibility = "hidden"
+        }
+    })
+ 
     
   </script>
