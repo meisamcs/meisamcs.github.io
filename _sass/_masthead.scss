@@ -37,14 +37,16 @@
     }
 
     li{
-        border-bottom: 1px solid;
+        border-bottom: 1px solid #239c13;
+        background: #25872d;
+        margin-bottom: 0;
 
         a{
-        
-        text-decoration: none;
-        font-family: 'Lato';
-        display: block;
-        padding: 1em;
+            text-decoration: none;
+            font-family: 'Lato';
+            display: block;
+            padding: 1em;
+            color: white;
         }
     }
 }
