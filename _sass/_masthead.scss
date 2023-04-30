@@ -3,11 +3,28 @@
    ========================================================================== */
 
 .mobile-menu{
-    position: absolute;
-    display: flex;
+    position: fixed;
+    display: block;
+    float: right;
+    list-style-type: none;
+    box-shadow: 0 0 10px #e0dcdc;
+    padding: 1em;
+    z-index: 999;
+    text-align: center;
+    right: 2em;
+    background: white;
 
     @include breakpoint($large){
         display: none;
+    }
+
+    li{
+        border-bottom: 1px solid;
+
+        a{
+        text-decoration: none;
+        font-family: 'Lato';
+        }
     }
 }
 

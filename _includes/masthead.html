@@ -23,6 +23,7 @@
 </div>
 
 <ul class="mobile-menu">
+    <button id="showHideMenu">Menu</button>
     <li><a href="{{ base_path }}/">{{ site.title }}</a></li>
     {% for link in site.data.navigation.main %}
       {% if link.url contains 'http' %}
@@ -33,3 +34,13 @@
       <li><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
     {% endfor %}
   </ul>
+
+  <script>
+    const showHideMenu = document.getElementById("showHideMenu")
+    if(showHideMenu.style.visibility == "hidden"){
+        showHideMenu.style.visibility = 'visible'
+    }else{
+        showHideMenu.style.visibility = "hidden"
+    }
+    
+  </script>
