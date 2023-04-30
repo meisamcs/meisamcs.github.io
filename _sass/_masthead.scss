@@ -5,14 +5,13 @@
     visibility: visible;
     position: fixed;
     right: 9px;
+    border-radius: 10px;
     border: none;
     font-size: 1.2em;
     font-family: 'Lato';
     z-index: 999;
-    padding: 0.6em;
-    box-shadow: 0 0 3px #272121;
+    padding: 0.1em;
     color: #fff;
-    background: #2c2e2c;
 
     @include breakpoint($large){
         visibility: hidden;
@@ -30,15 +29,15 @@
     text-align: center;
     right: 0.2em;
     background: white;
-    top: 1.9em;
+    top: 2.5em;
 
     @include breakpoint($large){
         visibility: hidden;
     }
 
     li{
-        border-bottom: 1px solid #239c13;
-        background: #25872d;
+        border-bottom: 1px solid #b4d1b1;
+        background: #162417;
         margin-bottom: 0;
 
         a{
