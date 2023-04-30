@@ -2,7 +2,7 @@
    BASE ELEMENTS
    ========================================================================== */
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Playfair+Display:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Lato:wght@400;700&display=swap');
 
    html {
   /* sticky footer fix */
@@ -16,7 +16,7 @@ body {
   padding-bottom: 9em;
   color: $text-color;
   /*font-family: $global-font-family; */
-  font-family: 'Playfair Display', serif !important;
+  font-family: 'Gelasio', serif !important;
   line-height: 1.5;
 
   &.overflow--hidden {
