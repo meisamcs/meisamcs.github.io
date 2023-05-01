@@ -26,16 +26,16 @@ Meisam's research focuses on developing responsible (Private, Adversarially Robu
 <h2>Recent News</h2>
 
   <ul class="blog-title-list" style="background: #eef7eb;padding: 3em">
-  <li>December 2022: Served as subreviewer in  member in IEEE TDSC 2022 </li>
-  <li>November 2022: Served as PC member in IEEE TKDE 2022 </li>
-  <li>October 2022: Served as Session Chair in WPES ACM CCS 2022 </li>
-  <li>October 2022: Joined Iowa State University's Department of Computer Science as a Tenure Track Assistant Professor </li>
-  <li>September 2022: Served as PC member for International Conference on Network and System Security (NSS'22) </li>
+  <li>December 2022: Served as subreviewer in  member in IEEE TDSC 2022</li>
+  <li>November 2022: Served as PC member in IEEE TKDE 2022</li>
+  <li>October 2022: Served as Session Chair in WPES ACM CCS 2022</li>
+  <li>October 2022: Joined Iowa State University's Department of Computer Science as a Tenure Track Assistant Professor</li>
+  <li>September 2022: Served as PC member for International Conference on Network and System Security (NSS'22)</li>
   <li>July 2022: Served as PC member and Session Chair in Privacy Enhancing Technologies 2022 (PETS'22) </li>
-  <li>February 2022: One Us patent filed "Utility optimized differential privacy system" </li>
-  <li>January 2022: One Us patent filed "Partition-based prefix preserving anonymization approach for network traces containing IP addresses" </li>
-  <li>October 2021: One paper accepted by is accepted by IEEE TKDE </li>
-  <li>August 2021: One paper accepted by ACM Transactions on Privacy and Security (TOPS)  </li>
+  <li>February 2022: One Us patent filed "Utility optimized differential privacy system"</li>
+  <li>January 2022: One Us patent filed "Partition-based prefix preserving anonymization approach for network traces containing IP addresses"</li>
+  <li>October 2021: One paper accepted by is accepted by IEEE TKDE</li>
+  <li>August 2021: One paper accepted by ACM Transactions on Privacy and Security (TOPS)</li>
 
 
 </ul>  
