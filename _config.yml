@@ -6,48 +6,48 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "en-US"
-title                   : "Home"
-title_separator          : "-"
-name                     : &name "Meisam Mohammady"
-remote_theme             : pages-themes/cayman@v0.2.0
-description              : &description "Dr. Meisam Mohammady is an Assistant Professor in the Department of Computer Science at Iowa State University (ISU). Prior to joining ISU, he was a Research Scientist at CSIRO Data61 which is the Australia’s leading digital research network, helping various partners across business, government and industry to solve a wide range of data-centric problems. "
-url                      : https://meisamcs.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "meisamcs/meisamcs.github.io"
-teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
-breadcrumbs              : false # true, false (default)
-words_per_minute         : 160
-future                   : true
-read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
-talkmap_link             : false #change to true to add link to talkmap on talks page
-twitter                  : "https://twitter.com/MohammadyMeisam"
+locale: "en-US"
+title: "Home"
+title_separator: "-"
+name: &name "Meisam Mohammady"
+remote_theme: pages-themes/cayman@v0.2.0
+description: &description "Dr. Meisam Mohammady is an Assistant Professor in the Department of Computer Science at Iowa State University (ISU). Prior to joining ISU, he was a Research Scientist at CSIRO Data61, Australia’s leading digital research network, helping various partners across business, government, and industry to solve a wide range of data-centric problems."
+url: https://meisamcs.github.io
+baseurl: ""
+repository: "meisamcs/meisamcs.github.io"
+teaser: 
+breadcrumbs: false
+words_per_minute: 160
+future: true
+read_more: "disabled"
+talkmap_link: false
+twitter: "https://twitter.com/MohammadyMeisam"
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  provider: 
   disqus:
-    shortname            :
+    shortname:
   discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+    server: 
   facebook:
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+    appid: 
+    num_posts: 
+    colorscheme: 
 staticman:
-  allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "gh-pages" # "master", "gh-pages"
-  commitMessage          : "New comment."
-  filename               : comment-{@timestamp}
-  format                 : "yml"
-  moderation             : true
-  path                   : "_data/comments/{options.slug}"
-  requiredFields         : ['name', 'email', 'message']
+  allowedFields: ['name', 'email', 'url', 'message']
+  branch: "gh-pages"
+  commitMessage: "New comment."
+  filename: comment-{@timestamp}
+  format: "yml"
+  moderation: true
+  path: "_data/comments/{options.slug}"
+  requiredFields: ['name', 'email', 'message']
   transforms:
-    email                : "md5"
+    email: "md5"
   generatedFields:
     date:
-      type               : "date"
+      type: "date"
       options:
-        format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+        format: "iso8601"
 atom_feed:
   path                   : # blank (default) uses feed.xml
 

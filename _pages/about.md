@@ -9,15 +9,15 @@ redirect_from:
 ---
 
 <h4 class="desktop-title">Dr. Meisam Mohammady</h4>
-<p><span class="mobile-title">Dr. Meisam Mohammady</span>is an Assistant Professor in <a href="https://www.cs.iastate.edu">the Department of Computer Science</a> at <a href="https://www.iastate.edu">Iowa State University </a> (ISU). Prior to joining ISU, he was a Research Scientist at <a href="https://www.csiro.au/en/">CSIRO</a> <a href=" https://data61.csiro.au/">Data61 </a> which is the Australia’s leading digital research network, helping various partners across business, government and industry to solve a wide range of data-centric problems. Meisam obtained his Ph.D. from <a href="https://www.concordia.ca/ginacody/info-systems-eng.html">Concordia Institute for Information and Systems Engineering (CIISE) </a>, Montreal, QC, Canada, where he was jointly supervised by Prof. <a href="https://users.encs.concordia.ca/~wang/">Lingyu Wang </a> and Prof. <a href="https://yhongcs.github.io/">Yuan Hong </a> (UConn). Before that, he received his M.Sc degree from the <a href="https://polymtl.ca/ge"> Electrical Engineering Department of Ecole Polytechnique Montreal </a>, Canada, and B.Sc degree from the <a href="https://www.ee.sharif.edu/en/"> Electrical Engineering Departmen of Sharif University of Technology </a>, respectively. Meisam is the reciepient of the  <a href="https://github.com/meisamcs/meisamcs.github.io/blob/master/Certificate.PNG"> Distinguished PhD Dissertation Awards</a> among all Engineering and Natural Science PhD dissertations and selected as Concordia University's nominee for both Canada-wide CAGS and ADESAQ competitions. 
+<p><span class="mobile-title">Dr. Meisam Mohammady</span>is an Assistant Professor in <a href="https://www.cs.iastate.edu">the Department of Computer Science</a> at <a href="https://www.iastate.edu">Iowa State University </a> (ISU). Prior to joining ISU, he was a Research Scientist at <a href="https://www.csiro.au/en/">CSIRO</a> <a href=" https://data61.csiro.au/">Data61 </a> which is the Australia’s leading digital research network, helping various partners across business, government and industry to solve a wide range of data-centric problems. Meisam obtained his Ph.D. from <a href="https://www.concordia.ca/ginacody/info-systems-eng.html"> Concordia University </a>, Montreal, QC, Canada. Before that, he received his M.Sc degree from the <a href="https://polymtl.ca/ge"> Electrical Engineering Department of Ecole Polytechnique Montreal </a>, Canada, and B.Sc degree from the <a href="https://www.ee.sharif.edu/en/"> Electrical Engineering Departmen of Sharif University of Technology </a>, respectively. Meisam is the reciepient of the  <a href="https://github.com/meisamcs/meisamcs.github.io/blob/master/Certificate.PNG"> Distinguished PhD Dissertation Awards</a> among all Engineering and Natural Science PhD dissertations and selected as Concordia University's nominee for both Canada-wide CAGS and ADESAQ competitions. 
 </p>
 
 <p>
-Meisam's research focuses on developing responsible (Private, Adversarially Robust and Fair) Machine Learning techniques including Federated Learning with provable accuracy, Differential Privacy, privacy preserving cloud security auditing, security cyberphysical systems, and the internet of things. His research contributions are published in top CS conferences and journals, such as CCS, TDSC, TOPS and TKDE.
+Meisam's research focuses on developing responsible (Private, Adversarially Robust and Fair) Machine Learning techniques including Federated Learning with provable accuracy, Differential Privacy, privacy preserving cloud security auditing, security cyberphysical systems, and the internet of things. His research contributions are published in top CS conferences and journals, such as IEEE S&P, ACM CCS, IEEE TDSC, ACM TOPS and IEEE TKDE.
 </p>
 
 
-<p style="color: #109c28;"> I am always looking for postdocs, Ph.D. students, visiting scholars/students, and undergraduate researchers. Please email your application materials to Dr. Meisam Mohammady if you are interested in our research. Graduate admission information can be found <a href="https://www.cs.iastate.edu/computer-science-graduate-admissions"> here </a>.</p>
+<p style="color: #109c28;"> I am always looking for motivated students, visiting scholars/students, and undergraduate researchers. Please email your application materials to Dr. Meisam Mohammady if you are interested in our research. Graduate admission information can be found <a href="https://www.cs.iastate.edu/computer-science-graduate-admissions"> here </a>.</p>
 
  <br>
   
@@ -26,6 +26,14 @@ Meisam's research focuses on developing responsible (Private, Adversarially Robu
 <h2>Recent News</h2>
 
   <ul class="blog-title-list" style="background: #eef7eb;padding: 3em">
+  <li> March     2024: One paper on "Location Inference Attack against Federated Recommendation 
+  Models" accepted by Asiaccs'24 (Acceptance rate: 55/284~19%). Congrats Thirasara! </li>
+  <li> February  2024: One paper accepted by ACM TIST'24 (congrats Thirasara!) </li>
+<li> December    2023: One paper on "Mitigating Distributed Backdoor Attack in Federated Learning 
+  Through Mode Connectivity" accepted by Asiaccs'24 (Acceptance rate: 55/284~19%). Congrats Kane! </li>
+  <li> December    2023: One paper on "Guaranteeing Differential Privacy over Infinite Disclosure" accepted by IEEE Symposium on Security and Privacy 2024 (Acceptance rate: 55/284~19%). Congrats Kane! </li>
+  
+  <li>December 2022: One paper accepted by Asiaccs'24 (congrats Thirasara!) </li>
   <li>December 2022: Served as subreviewer in  member in IEEE TDSC 2022</li>
   <li>November 2022: Served as PC member in IEEE TKDE 2022</li>
   <li>October 2022: Served as Session Chair in WPES ACM CCS 2022</li>
