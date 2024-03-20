@@ -21,23 +21,20 @@ Meisam's research focuses on developing responsible (Private, Adversarially Robu
   
 <h2>Recent News</h2>
 
-<ul class="blog-title-list" style="background: transparent; padding: 3em; font-family: 'Times New Roman', Times, serif;">
-  <li><span style="color: black; text-decoration: none;">March     2024:</span> One paper on "<strong>Location Inference Attack against Federated Recommendation 
-  Models</strong>" accepted by <strong>Asiaccs'24</strong> (Acceptance rate: <strong>55/284~19%</strong>). Congrats Thirasara! </li>
-  <li><span style="color: black; text-decoration: none;">February  2024:</span> One paper accepted by <strong>ACM TIST'24</strong>. Congrats Thirasara! </li>
-  <li><span style="color: black; text-decoration: none;">December    2023:</span> One paper on "<strong>Mitigating Distributed Backdoor Attack in Federated Learning 
-  Through Mode Connectivity</strong>" accepted by <strong>Asiaccs'24</strong> (Acceptance rate: <strong>55/284~19%</strong>). Congrats Kane! </li>
-  <li><span style="color: black; text-decoration: none;">December    2023:</span> One paper on "<strong>Guaranteeing Differential Privacy over Infinite Disclosure</strong>" accepted by <strong>IEEE Symposium on Security and Privacy 2024</strong> (Acceptance rate: <strong>22/1389~17.8%</strong>). Congrats Shuya! </li>
-  
-  <li><span style="color: black; text-decoration: none;">December 2022:</span> One paper accepted by <strong>Asiaccs'24</strong> (congrats Thirasara!) </li>
-  <li><span style="color: black; text-decoration: none;">December 2022:</span> Served as subreviewer in  member in <strong>IEEE TDSC 2022</strong></li>
-  <li><span style="color: black; text-decoration: none;">November 2022:</span> Served as PC member in <strong>IEEE TKDE 2022</strong></li>
-  <li><span style="color: black; text-decoration: none;">October 2022:</span> Served as Session Chair in <strong>WPES ACM CCS 2022</strong></li>
-  <li><span style="color: black; text-decoration: none;">October 2022:</span> Joined Iowa State University's Department of Computer Science as a Tenure Track Assistant Professor</li>
-  <li><span style="color: black; text-decoration: none;">September 2022:</span> Served as PC member for <strong>International Conference on Network and System Security (NSS'22)</strong></li>
-  <li><span style="color: black; text-decoration: none;">July 2022:</span> Served as PC member and Session Chair in <strong>Privacy Enhancing Technologies 2022 (PETS'22)</strong> </li>
-  <li><span style="color: black; text-decoration: none;">February 2022:</span> One Us patent filed "<strong>Utility optimized differential privacy system</strong>"</li>
-  <li><span style="color: black; text-decoration: none;">January 2022:</span> One Us patent filed "<strong>Partition-based prefix preserving anonymization approach for network traces containing IP addresses</strong>"</li>
-  <li><span style="color: black; text-decoration: none;">October 2021:</span> One paper accepted by is accepted by <strong>IEEE TKDE</strong></li>
-  <li><span style="color: black; text-decoration: none;">August 2021:</span> One paper accepted by <strong>ACM Transactions on Privacy and Security (TOPS)</strong></li>
+<ul class="blog-title-list" style="background: transparent; padding: 3em; font-family: 'Times New Roman', Times, serif; list-style: none; margin: 0; padding: 0;">
+  <li style="color: black;"><span style="text-decoration: none;">March 2024:</span> One paper on "<strong>Location Inference Attack against Federated Recommendation Models</strong>" accepted by <strong>Asiaccs'24</strong> (Acceptance rate: <strong>55/284~19%</strong>). Congrats Thirasara!</li>
+  <li style="color: black;"><span style="text-decoration: none;">February 2024:</span> One paper accepted by <strong>ACM TIST'24</strong>. Congrats Thirasara!</li>
+  <li style="color: black;"><span style="text-decoration: none;">December 2023:</span> One paper on "<strong>Mitigating Distributed Backdoor Attack in Federated Learning Through Mode Connectivity</strong>" accepted by <strong>Asiaccs'24</strong> (Acceptance rate: <strong>55/284~19%</strong>). Congrats Kane!</li>
+  <li style="color: black;"><span style="text-decoration: none;">December 2023:</span> One paper on "<strong>Guaranteeing Differential Privacy over Infinite Disclosure</strong>" accepted by <strong>IEEE Symposium on Security and Privacy 2024</strong> (Acceptance rate: <strong>22/1389~17.8%</strong>). Congrats Shuya!</li>
+  <li style="color: black;"><span style="text-decoration: none;">December 2022:</span> One paper accepted by <strong>Asiaccs'24</strong> (congrats Thirasara!)</li>
+  <li style="color: black;"><span style="text-decoration: none;">December 2022:</span> Served as subreviewer in member in <strong>IEEE TDSC 2022</strong></li>
+  <li style="color: black;"><span style="text-decoration: none;">November 2022:</span> Served as PC member in <strong>IEEE TKDE 2022</strong></li>
+  <li style="color: black;"><span style="text-decoration: none;">October 2022:</span> Served as Session Chair in <strong>WPES ACM CCS 2022</strong></li>
+  <li style="color: black;"><span style="text-decoration: none;">October 2022:</span> Joined Iowa State University's Department of Computer Science as a Tenure Track Assistant Professor</li>
+  <li style="color: black;"><span style="text-decoration: none;">September 2022:</span> Served as PC member for <strong>International Conference on Network and System Security (NSS'22)</strong></li>
+  <li style="color: black;"><span style="text-decoration: none;">July 2022:</span> Served as PC member and Session Chair in <strong>Privacy Enhancing Technologies 2022 (PETS'22)</strong></li>
+  <li style="color: black;"><span style="text-decoration: none;">February 2022:</span> One Us patent filed "<strong>Utility optimized differential privacy system</strong>"</li>
+  <li style="color: black;"><span style="text-decoration: none;">January 2022:</span> One Us patent filed "<strong>Partition-based prefix preserving anonymization approach for network traces containing IP addresses</strong>"</li>
+  <li style="color: black;"><span style="text-decoration: none;">October 2021:</span> One paper accepted by is accepted by <strong>IEEE TKDE</strong></li>
+  <li style="color: black;"><span style="text-decoration: none;">August 2021:</span> One paper accepted by <strong>ACM Transactions on Privacy and Security (TOPS)</strong></li>
 </ul>
