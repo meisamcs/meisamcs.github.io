@@ -25,13 +25,13 @@ Meisam's research focuses on developing responsible (Private, Adversarially Robu
   
 <h2>Recent News</h2>
 
-  <ul class="blog-title-list" style="background: #eef7eb;padding: 3em">
+<ul class="blog-title-list" style="padding: 3em">
   <li> March     2024: One paper on "Location Inference Attack against Federated Recommendation 
   Models" accepted by Asiaccs'24 (Acceptance rate: 55/284~19%). Congrats Thirasara! </li>
   <li> February  2024: One paper accepted by ACM TIST'24. congrats Thirasara! </li>
-<li> December    2023: One paper on "Mitigating Distributed Backdoor Attack in Federated Learning 
+  <li> December    2023: One paper on "Mitigating Distributed Backdoor Attack in Federated Learning 
   Through Mode Connectivity" accepted by Asiaccs'24 (Acceptance rate: 55/284~19%). Congrats Kane! </li>
-  <li> December    2023: One paper on "Guaranteeing Differential Privacy over Infinite Disclosure" accepted by IEEE Symposium on Security and Privacy 2024 (Acceptance rate: 55/284~19%). Congrats Kane! </li>
+  <li> December    2023: One paper on "Guaranteeing Differential Privacy over Infinite Disclosure" accepted by IEEE Symposium on Security and Privacy 2024 (Acceptance rate: 22/1389~17.8%). Congrats Shuya! </li>
   
   <li>December 2022: One paper accepted by Asiaccs'24 (congrats Thirasara!) </li>
   <li>December 2022: Served as subreviewer in  member in IEEE TDSC 2022</li>
@@ -46,7 +46,8 @@ Meisam's research focuses on developing responsible (Private, Adversarially Robu
   <li>August 2021: One paper accepted by ACM Transactions on Privacy and Security (TOPS)</li>
 
 
-</ul>  
+</ul>
+
 
 <!-- <h2>Recent Blog</h2>
 {% include base_path %}
