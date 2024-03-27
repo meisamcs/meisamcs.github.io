@@ -28,7 +28,6 @@ Meisam's research focuses on developing responsible (Private, Adversarially Robu
   <li> December    2023: One paper on "Mitigating Distributed Backdoor Attack in Federated Learning 
   Through Mode Connectivity" accepted by Asiaccs'24 (Acceptance rate: 55/284~19%). Congrats Kane! </li>
   <li> December    2023: One paper on "Guaranteeing Differential Privacy over Infinite Disclosure" accepted by IEEE Symposium on Security and Privacy 2024 (Acceptance rate: 55/284~19%). Congrats Kane! </li>
-  
   <li> December 2022: One paper accepted by Asiaccs'24 (congrats Thirasara!) </li>
   <li> December 2022: Served as subreviewer in  member in IEEE TDSC 2022 </li>
   <li> November 2022: Served as PC member in IEEE TKDE 2022 </li>
