@@ -20,6 +20,7 @@ Meisam's research focuses on developing responsible (Private, Adversarially Robu
 <p style="color: #109c28;"> I am always looking for motivated students, visiting scholars/students, and undergraduate researchers. Please email your application materials to Dr. Meisam Mohammady if you are interested in our research. Graduate admission information can be found <a href="https://www.cs.iastate.edu/computer-science-graduate-admissions"> here </a>.</p>
   
 <h2>Recent News</h2>
+
 <ul class="blog-title-list" style="background: #eef7eb;padding: 3em">
   <li> March     2024: One paper on "Location Inference Attack against Federated Recommendation 
   Models" accepted by Asiaccs'24 (Acceptance rate: 55/284~19%). Congrats Thirasara! </li>
