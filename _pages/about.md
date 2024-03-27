@@ -20,7 +20,6 @@ Meisam's research focuses on developing responsible (Private, Adversarially Robu
 <p style="color: #109c28;"> I am always looking for motivated students, visiting scholars/students, and undergraduate researchers. Please email your application materials to Dr. Meisam Mohammady if you are interested in our research. Graduate admission information can be found <a href="https://www.cs.iastate.edu/computer-science-graduate-admissions"> here </a>.</p>
   
 <h2>Recent News</h2>
-
 <ul class="blog-title-list" style="background: #eef7eb;padding: 3em">
   <li> March     2024: One paper on "Location Inference Attack against Federated Recommendation 
   Models" accepted by Asiaccs'24 (Acceptance rate: 55/284~19%). Congrats Thirasara! </li>
@@ -28,6 +27,7 @@ Meisam's research focuses on developing responsible (Private, Adversarially Robu
   <li> December    2023: One paper on "Mitigating Distributed Backdoor Attack in Federated Learning 
   Through Mode Connectivity" accepted by Asiaccs'24 (Acceptance rate: 55/284~19%). Congrats Kane! </li>
   <li> December    2023: One paper on "Guaranteeing Differential Privacy over Infinite Disclosure" accepted by IEEE Symposium on Security and Privacy 2024 (Acceptance rate: 55/284~19%). Congrats Kane! </li>
+  
   <li> December 2022: One paper accepted by Asiaccs'24 (congrats Thirasara!) </li>
   <li> December 2022: Served as subreviewer in  member in IEEE TDSC 2022 </li>
   <li> November 2022: Served as PC member in IEEE TKDE 2022 </li>
