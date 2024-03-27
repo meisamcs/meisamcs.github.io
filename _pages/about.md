@@ -21,39 +21,6 @@ Meisam's research focuses on developing responsible (Private, Adversarially Robu
   
 <h2>Recent News</h2>
 
-<ul class="blog-title-list" style="background: #eef7eb;padding: 3em">
-
-
-  <li> March     2024: One paper on "Location Inference Attack against Federated Recommendation 
-  Models" accepted by Asiaccs'24 (Acceptance rate: 55/284~19%). Congrats Thirasara! </li>
-  <li> February  2024: One paper accepted by ACM TIST'24. congrats Thirasara! </li>
-  <li> December    2023: One paper on "Mitigating Distributed Backdoor Attack in Federated Learning 
-  Through Mode Connectivity" accepted by Asiaccs'24 (Acceptance rate: 55/284~19%). Congrats Kane! </li>
-  <li> December    2023: One paper on "Guaranteeing Differential Privacy over Infinite Disclosure" accepted by IEEE Symposium on Security and Privacy 2024 (Acceptance rate: 55/284~19%). Congrats Kane! </li>
-  
-  <li> December 2022: One paper accepted by Asiaccs'24 (congrats Thirasara!) </li>
-  <li> December 2022: Served as subreviewer in  member in IEEE TDSC 2022 </li>
-  <li> November 2022: Served as PC member in IEEE TKDE 2022 </li>
-  <li> October 2022: Served as Session Chair in WPES ACM CCS 2022</li>
-  <li>October 2022: Joined Iowa State University's Department of Computer Science as a Tenure Track Assistant Professor</li>
-  <li>September 2022: Served as PC member for International Conference on Network and System Security (NSS'22)</li>
-  <li>July 2022: Served as PC member and Session Chair in Privacy Enhancing Technologies 2022 (PETS'22) </li>
-  <li>February 2022: One Us patent filed "Utility optimized differential privacy system"</li>
-  <li>January 2022: One Us patent filed "Partition-based prefix preserving anonymization approach for network traces containing IP addresses"</li>
-  <li>October 2021: One paper accepted by is accepted by IEEE TKDE</li>
-  <li>August 2021: One paper accepted by ACM Transactions on Privacy and Security (TOPS)</li>
-
-
-</ul>  
-
-<!-- <h2>Recent Blog</h2>
-{% include base_path %}
-<!-- {% capture written_year %}'None'{% endcapture %}
-{% for post in site.posts %}
-  {% include recent-news-title.html %}
-{% endfor %}
- -->
-
 =======
 <ul class="blog-title-list" style="background: transparent; padding: 3em; font-family: 'Times New Roman', Times, serif; list-style: none; margin: 0; padding: 0;">
   <li style="color: black; text-decoration: none;"><span>March 2024:</span> One paper on "<strong>Location Inference Attack against Federated Recommendation Models</strong>" accepted by <strong>Asiaccs'24</strong> (Acceptance rate: <strong>55/284~19%</strong>). Congrats Thirasara!</li>
