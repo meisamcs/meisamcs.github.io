@@ -14,10 +14,6 @@ redirect_from:
 </p>
 
 
-
-</p>
-
-
 Meisam's research focuses on developing responsible (Private, Adversarially Robust and Fair) Machine Learning techniques including Federated Learning with provable accuracy, Differential Privacy, privacy preserving cloud security auditing, security cyberphysical systems, and the internet of things. His research contributions are published in top CS conferences and journals, such as IEEE S&P, ACM CCS, IEEE TDSC, ACM TOPS and IEEE TKDE.
 </p>
 
