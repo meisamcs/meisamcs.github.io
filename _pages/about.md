@@ -13,7 +13,7 @@ redirect_from:
 
 </p>
   <a href="<p>
-  <a href="meisamcs.github.io/_pages/CVV.pdf" target="_blank">Download CV PDF</a>
+  <a href="CVV.pdf" target="_blank">Download CV PDF</a>
 </p>
 
 
