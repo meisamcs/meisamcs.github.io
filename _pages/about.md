@@ -13,6 +13,7 @@ redirect_from:
 
 <a href="_pages/CVV.pdf" target="_blank">Download CV PDF</a> 
 
+<a href="_pages/CVV.pdf" target="_blank">Download CV PDF</a>
 
 
 
