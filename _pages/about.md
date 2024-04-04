@@ -11,7 +11,7 @@ redirect_from:
 <h4 class="desktop-title">Short Bio</h4>
 <p><span class="mobile-title">Short Bio</span> Dr. Meisam Mohammady is an Assistant Professor in <a href="https://www.cs.iastate.edu">the Department of Computer Science</a> at <a href="https://www.iastate.edu">Iowa State University </a> (ISU). Prior to joining ISU, he was a Research Scientist at <a href="https://www.csiro.au/en/">CSIRO</a> <a href=" https://data61.csiro.au/">Data61 </a> which is the Australia’s leading digital research network, helping various partners across business, government and industry to solve a wide range of data-centric problems. Meisam obtained his Ph.D. from <a href="https://www.concordia.ca/ginacody/info-systems-eng.html"> Concordia University </a>, Montreal, QC, Canada. Before that, he received his M.Sc degree from the <a href="https://polymtl.ca/ge"> Electrical Engineering Department of Ecole Polytechnique Montreal </a>, Canada, and B.Sc degree from the <a href="https://www.ee.sharif.edu/en/"> Electrical Engineering Departmen of Sharif University of Technology </a>, respectively. Meisam is the reciepient of the  <a href="https://github.com/meisamcs/meisamcs.github.io/blob/master/Certificate.PNG"> Distinguished PhD Dissertation Awards</a> among all Engineering and Natural Science PhD dissertations and selected as Concordia University's nominee for both Canada-wide CAGS and ADESAQ competitions...
 
-<a href="CVV.pdf" target="_blank">Download CV PDF</a>
+<a href="CVV.pdf" target="_blank">Download CV PDF</a> 
 
 
 
