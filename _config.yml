@@ -84,9 +84,9 @@ analytics:
 author:
   name             : "Meisam Mohammady"
   avatar           : "profilepic.jpg"
-  bio              : "Assistant Professor, Department of Computer Science <br> <b>E-mail: meisam@iastate.edu</b>"
-  location         : "Ames, IA, USA"
-  employer         : "Iowa State University"
+  Address          : "2434 Osborn Dr, Department of Computer Science, Iowa State University, Ames, IA, 50011"
+  E-mail            : "meisam@iastate.edu"
+  Office           : "232 Atanasoff Hall"
   #pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.ca/citations?user=UL-3sUgAAAAJ&hl=en"
   #Email            : "meisam AT iastate DOT edu"
