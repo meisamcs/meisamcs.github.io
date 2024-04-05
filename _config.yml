@@ -21,7 +21,6 @@ words_per_minute: 160
 future: true
 read_more: "disabled"
 talkmap_link: false
-twitter: "https://twitter.com/MohammadyMeisam"
 comments:
   provider: 
   disqus:
@@ -84,9 +83,8 @@ analytics:
 author:
   name             : "Meisam Mohammady"
   avatar           : "profilepic.jpg"
-  bio              : "Assistant Professor, Department of Computer Science, Iowa State University <br> <b>E-mail: meisam@iastate.edu</b>"
-  Address          : "2434 Osborn Dr, Department of Computer Science, Iowa State University, Ames, IA, 50011"
-  Office           : "232 Atanasoff Hall"
+  Address          : "2434 Osborn Dr, Department of Computer Science, Iowa State University, Ames, IA, 50011 <br> <b>Office: 232 Atanasoff Hall</b> <br> <b>E-mail: meisam@iastate.edu</b>"
+  
   #pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.ca/citations?user=UL-3sUgAAAAJ&hl=en"
   #Email            : "meisam AT iastate DOT edu"
