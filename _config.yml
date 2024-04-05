@@ -83,7 +83,7 @@ analytics:
 author:
   name             : "Meisam Mohammady"
   avatar           : "profilepic.jpg"
-  Address          : "2434 Osborn Dr, Department of Computer Science, Iowa State University, Ames, IA, 50011 <br> <b>Office: 232 Atanasoff Hall</b> <br> <b>E-mail: meisam@iastate.edu</b>"
+  bio          : "  Address: 2434 Osborn Dr, Department of Computer Science, Iowa State University, Ames, IA, 50011 <br> <b>Office: 232 Atanasoff Hall</b> <br> <b>E-mail: meisam@iastate.edu</b>"
   #pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.ca/citations?user=UL-3sUgAAAAJ&hl=en"
   #Email            : "meisam AT iastate DOT edu"
