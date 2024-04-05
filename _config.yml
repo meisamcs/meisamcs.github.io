@@ -84,7 +84,7 @@ analytics:
 author:
   name             : "Meisam MohammadY"
   avatar           : "profilepic.jpg"
-  bio        : "Address: 2434 Osborn Dr, Department of Computer Science, Iowa State University, Ames, IA, 50011"
+  bio               : "Address: 2434 Osborn Dr, Department of Computer Science, Iowa State University, Ames, IA, 50011"
   E-mail            : "meisam@iastate.edu"
   Office           : "232 Atanasoff Hall"
   #pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
