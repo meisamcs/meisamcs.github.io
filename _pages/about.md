@@ -9,29 +9,24 @@ redirect_from:
 ---
 
 <h4 class="desktop-title">Short Bio</h4>
-<p><span class="mobile-title">Short Bio</span> Dr. Meisam Mohammady is an Assistant Professor in <a href="https://www.cs.iastate.edu">the Department of Computer Science</a> at <a href="https://www.iastate.edu">Iowa State University </a> (ISU). Prior to joining ISU, he was a Research Scientist at <a href="https://www.csiro.au/en/">CSIRO</a> <a href=" https://data61.csiro.au/">Data61 </a> which is the Australia’s leading digital research network, helping various partners across business, government and industry to solve a wide range of data-centric problems. Meisam obtained his Ph.D. from <a href="https://www.concordia.ca/ginacody/info-systems-eng.html"> Concordia University </a>, Montreal, QC, Canada. Before that, he received his M.Sc degree from the <a href="https://polymtl.ca/ge"> Electrical Engineering Department of Ecole Polytechnique Montreal </a>, Canada, and B.Sc degree from the <a href="https://www.ee.sharif.edu/en/"> Electrical Engineering Departmen of Sharif University of Technology </a>, respectively. Meisam is the reciepient of the  <a href="https://github.com/meisamcs/meisamcs.github.io/blob/master/Certificate.PNG"> Distinguished PhD Dissertation Awards</a> among all Engineering and Natural Science PhD dissertations and selected as Concordia University's nominee for both Canada-wide CAGS and ADESAQ competitions...
-
-</p>
-  <a href="<p>
-  <a href="[CVV.pdf](CVV.pdf)" target="_blank">Download CV PDF</a>
-</p>
+<p style="font-size: 16px;"><span class="mobile-title">Short Bio</span> Dr. Meisam Mohammady is an Assistant Professor in <a href="https://www.cs.iastate.edu">the Department of Computer Science</a> at <a href="https://www.iastate.edu">Iowa State University</a> (ISU). Prior to joining ISU, he was a Research Scientist at <a href="https://www.csiro.au/en/">CSIRO</a> <a href="https://data61.csiro.au/">Data61</a>, which is Australia’s leading digital research network, helping various partners across business, government, and industry solve a wide range of data-centric problems. Meisam obtained his Ph.D. from <a href="https://www.concordia.ca/ginacody/info-systems-eng.html">Concordia University</a>, Montreal, QC, Canada. Before that, he received his M.Sc degree from the Electrical Engineering Department of <a href="https://polymtl.ca/ge">Ecole Polytechnique Montreal</a>, Canada, and B.Sc degree from the Electrical Engineering Department of <a href="https://www.ee.sharif.edu/en/">Sharif University of Technology</a>, respectively. Meisam is the recipient of the <a href="https://github.com/meisamcs/meisamcs.github.io/blob/master/Certificate.PNG">Distinguished PhD Dissertation Award</a> among all Engineering and Natural Science PhD dissertations and was selected as Concordia University's nominee for both Canada-wide CAGS and ADESAQ competitions. Meisam's research focuses on developing responsible (Private, Adversarially Robust, and Fair) Machine Learning techniques including Federated Learning with provable accuracy, Differential Privacy, privacy-preserving cloud security auditing, security cyberphysical systems, and the internet of things. His research contributions are published in top CS conferences and journals, such as IEEE S&P, ACM CCS, IEEE TDSC, ACM TOPS, and IEEE TKDE. Access my CV <a href="_pages/CVe.pdf" target="_blank">here</a>.</p>
 
 
-Meisam's research focuses on developing responsible (Private, Adversarially Robust and Fair) Machine Learning techniques including Federated Learning with provable accuracy, Differential Privacy, privacy preserving cloud security auditing, security cyberphysical systems, and the internet of things. His research contributions are published in top CS conferences and journals, such as IEEE S&P, ACM CCS, IEEE TDSC, ACM TOPS and IEEE TKDE.
-</p>
+<p style="font-size: 14px; color: #109c28;"> I am always looking for motivated students, visiting scholars/students, and undergraduate researchers. Please email your application materials to Dr. Meisam Mohammady if you are interested in our research. Graduate admission information can be found <a href="https://www.cs.iastate.edu/computer-science-graduate-admissions"> here </a>.</p>
 
 
-<p style="color: #109c28;"> I am always looking for motivated students, visiting scholars/students, and undergraduate researchers. Please email your application materials to Dr. Meisam Mohammady if you are interested in our research. Graduate admission information can be found <a href="https://www.cs.iastate.edu/computer-science-graduate-admissions"> here </a>.</p>
+
+
   
 <h2>Recent News</h2>
 
-=======
+======================================================================================================================================================================================================
 <ul class="blog-title-list" style="background: transparent; padding: 3em; font-family: 'Times New Roman', Times, serif; list-style: none; margin: 0; padding: 0;">
   <li style="color: black; text-decoration: none;"><span>March 2024:</span> One paper on "<strong>Location Inference Attack against Federated Recommendation Models</strong>" accepted by <strong>Asiaccs'24</strong> (Acceptance rate: <strong>55/284~19%</strong>). Congrats Thirasara!</li>
   <li style="color: black; text-decoration: none;"><span>February 2024:</span> One paper accepted by <strong>ACM TIST'24</strong>. Congrats Thirasara!</li>
   <li style="color: black; text-decoration: none;"><span>December 2023:</span> One paper on "<strong>Mitigating Distributed Backdoor Attack in Federated Learning Through Mode Connectivity</strong>" accepted by <strong>Asiaccs'24</strong> (Acceptance rate: <strong>55/284~19%</strong>). Congrats Kane!</li>
   <li style="color: black; text-decoration: none;"><span>December 2023:</span> One paper on "<strong>Guaranteeing Differential Privacy over Infinite Disclosure</strong>" accepted by <strong>IEEE Symposium on Security and Privacy 2024</strong> (Acceptance rate: <strong>22/1389~17.8%</strong>). Congrats Shuya!</li>
-    <li style="color: black; text-decoration: none;"><span>December 2023:</span> Optimally Mitigating Backdoor Attacks in Federated Learning</strong>" accepted by <strong>IEEE Transactions on Dependable and Secure Computing (TDSC)</strong> (Impact Factor: <strong>7.3</strong>). Congrats Kane!</li>
+    <li style="color: black; text-decoration: none;"><span>December 2023:</span> <strong> Optimally Mitigating Backdoor Attacks in Federated Learning </strong>" accepted by <strong>IEEE Transactions on Dependable and Secure Computing (TDSC)</strong> (Impact Factor: <strong>7.3</strong>). Congrats Kane!</li>
   <li style="color: black; text-decoration: none;"><span>December 2022:</span> Served as subreviewer in member in <strong>IEEE TDSC 2022</strong></li> 
   <li style="color: black; text-decoration: none;"><span>November 2022:</span> Served as PC member in <strong>IEEE TKDE 2022</strong></li>
   <li style="color: black; text-decoration: none;"><span>October 2022:</span> Served as Session Chair in <strong>WPES ACM CCS 2022</strong></li>
