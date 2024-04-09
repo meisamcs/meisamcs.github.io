@@ -9,7 +9,6 @@ author_profile: true
 {% endif %}
 
 {% include base_path %}
-<h2>Refereed Publications</h2>
 <ol>
 <li> **Qin Yang$^{*}$**, *Meisam Mohammady$^{*}$*, Han Wang, Ali Payani, Ashish Kundu, Kai Shu, Yan Yan, Yuan Hong. LMO-DP: Optimizing the Randomization Mechanism for Differentially Private Fine-Tuning Language Models. To be presented at the 2024 International Conference on Machine Learning (ICML'24). *Equal Contribution (Co-First Authors).* </li>
 
