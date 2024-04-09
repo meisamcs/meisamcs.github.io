@@ -69,14 +69,4 @@ author_profile: true
 
 <li> Meisam Mohammady, Han Wang, Yuan Hong, Mengyuan Zhang, Suryaipta Majumdar, Lingyu Wang, Makan Pourzandi and Mourad Debbabi. *DPOD: Differentially Private Outsourcing of Anomaly Detection.* US Patent, Under Review, 2020.* </li>
 </ol>
-
-<h2>Supervision</h2>
-<ul>
-<li> Mr. Kane Walter Ph.D., the University of New South Wales jointly with Dr. Surya Nepal and Dr. Salil Kanhere </li>
-
-<li> Mr. Gnanakumar Thedchanamoorthy Ph.D., the Charles Sturt University jointly with Dr. Zahid Islam </li>
-
-<li> Mr. Thirasara Ariyaratna Ph.D., the University of New South Wales jointly Co-supervisors: Dr. Salil Kanhere Dr. Qinghua Lu, CSIRO’s Data61 and Dr. Helen Paik, Commenced in October 2020. </li>
-
-<li> Hrishi Masurkar Honorary, the University of New South Wales jointly with Dr. Clement Cannone </li>
 </ul>
