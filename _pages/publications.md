@@ -49,17 +49,6 @@ author_profile: true
 <li> Jerome Le Ny and *Meisam Mohammady*. *Differentially private MIMO filtering for event streams and spatio-temporal monitoring.* In Proceedings of the 53rd IEEE Conference on Decision and Control (CDC’ 14), Published, 2014 	[H Index: 118].* </li>
 </ol>
 
-<h2>UNDER REVIEW & SUBMISSION</h2>
-<ol>
-<li> Kane Walter, Meisam Mohammady, Surya Nepal and Salil Kanhere. *No Free Lunch in Federated Learning: Larger Model Size Increases Backdoor Attack Surface.* IEEE Transactions on Dependable and Secure Computing (TDSC’ 22), Under Review.* </li>
-
-<li> Meisam Mohammady, Han Wang, Yuan Hong, Mengyuan Zhang, Suryaipta Majumdar, Lingyu Wang, Makan Pourzandi and Mourad Debbabi. *DPOAD: Differentially Private Outsourcing of Anomaly Detection with Optimal Sensitivity Learning.* ACM Conference on Computer and Communications Security (CCS’ 22), Under Review.* </li>
-
-<li> Meisam Mohammady, Dongxi Liu, Surya Nepal and Salil Kanhere. *Accurate Statistical Inference in Piece-wise Applications Under Differential Privacy.* 44rd IEEE Symposium on Security and Privacy S&P’ 23, To be Submitted.* </li>
-
-<li> Meisam Mohammady, Surya Nepal and Salil Kanhere. *Sub-optimal Tool for AI with Differential Privacy and Fairness.* Thirty-sixth Conference on Neural Information Processing Systems NeurIPS’ 22, To be Submitted.* </li>
-</ol>
-
 <h2>Patents</h2>
 <ol>
 <li> Meisam Mohammady, Yosr Jarraya, Lingyu Wang, Mourad Debbabi and Makan Pourzandi. *Partition-based prefix preserving anonymization approach for network traces containing ip addresses.* US Patent App. 16/477,428, 2019, Published 2019.* </li>
@@ -68,4 +57,3 @@ author_profile: true
 
 <li> Meisam Mohammady, Han Wang, Yuan Hong, Mengyuan Zhang, Suryaipta Majumdar, Lingyu Wang, Makan Pourzandi and Mourad Debbabi. *DPOD: Differentially Private Outsourcing of Anomaly Detection.* US Patent, Under Review, 2020.* </li>
 </ol>
-</ul>
