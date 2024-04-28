@@ -12,7 +12,7 @@ redirect_from:
   /* Adjustments for mobile responsiveness */
   @media screen and (max-width: 600px) {
     .blog-title-list li {
-      font-size: 14px;
+      font-size: 11px;
     }
   }
 </style>
