@@ -10,7 +10,6 @@ author_profile: true
 
 {% include base_path %}
 <ol>
-<li> **Qin Yang$^{*}$**, *Meisam Mohammady$^{*}$*, Han Wang, Ali Payani, Ashish Kundu, Kai Shu, Yan Yan, Yuan Hong. LMO-DP: Optimizing the Randomization Mechanism for Differentially Private Fine-Tuning Language Models. To be presented at the 2024 International Conference on Machine Learning (ICML'24). *Equal Contribution (Co-First Authors).* </li>
 
 <li> **Shuya Feng$^{*}$**, *Meisam Mohammady$^{*}$*, Han Wang, Xiaochen Li, Zhan Qin, Yuan Hong. *DPI: Ensuring Strict Differential Privacy for Infinite Data Streaming*. The 45th IEEE Symposium on Security and Privacy (S\&P' 24). *Acceptance rate: $202/1389 \sim 14.5\%$. *Equal Contribution (Co-First Authors.* </li>
 
