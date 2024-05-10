@@ -20,7 +20,7 @@ author_profile: true
 
 <li> Thirasara Ariyarathna, *Meisam Mohammady*, Hye-Young (Helen) Paik and Salil S Kanhere. *VLIA: Navigating Shadows with Proximity for Highly Accurate Visited Location Inference Attack against Federated Recommendation Models*. The 19th ACM ASIA Conference on Computer and Communications Security (ASIACCS'24). *Acceptance rate: $55/284 \sim 19\%$.* </li>
 
-<li> <strong>OptimShare: A Unified Framework for Privacy Preserving Data Sharing--Towards the Practical Utility of Data with Privacy</strong>, MAP Chamikara, Seung Ick Jang, Ian Oppermann, Dongxi Liu, Musotto Roberto, Sushmita Ruj, Arindam Pal, Meisam Mohammady, Seyit Camtepe, Sylvia Young, Chris Dorrian, Nasir David </li>
+<li> OptimShare: A Unified Framework for Privacy Preserving Data Sharing--Towards the Practical Utility of Data with Privacy</strong>, MAP Chamikara, Seung Ick Jang, Ian Oppermann, Dongxi Liu, Musotto Roberto, Sushmita Ruj, Arindam Pal, Meisam Mohammady, Seyit Camtepe, Sylvia Young, Chris Dorrian, Nasir David </li>
 
 
 <li> Thirasara Ariyarathna, *Meisam Mohammady*, Hye-Young (Helen) Paik and Salil S Kanhere. *User GPS Trajectory Reconstruction from Federated Route Recommendation Models*. ACM Transactions on Intelligent Systems and Technology (ACM TIST'24). *IF: 10.489.* </li>
