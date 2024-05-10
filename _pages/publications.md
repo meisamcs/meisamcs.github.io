@@ -11,7 +11,7 @@ author_profile: true
 {% include base_path %}
 <ol>
 
-<li> **Qin Yang**, *Meisam Mohammady$^{*}$*, Han Wang, Ali Payani, Ashish Kundu, Kai Shu, Yan Yan, Yuan Hong. *LMO-DP: Accurately Fine-Tuning Language Models with Stronger Differential Privacy*. <a href="https://openreview.net/forum?id=nATTIkte9f)">[Preprint]</a> </li>  Equal Contribution (Co-First Authors). </li>
+<li> **Qin Yang**, *Meisam Mohammady$^{*}$*, Han Wang, Ali Payani, Ashish Kundu, Kai Shu, Yan Yan, Yuan Hong. *LMO-DP: Accurately Fine-Tuning Language Models with Stronger Differential Privacy*. <a href="https://openreview.net/forum?id=nATTIkte9f)">[Preprint]</a>  Equal Contribution (Co-First Authors). </li>
 
 
 
