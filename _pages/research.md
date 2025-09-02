@@ -150,27 +150,7 @@ author_profile: true
     **CDC'14.**  
     *H-index: 118*.
 
-### Research Areas
-**Differential Privacy, Secure Federated Learning, Anonymity, Computational Learning Theory, Secure Multiparty Computation, Fairness**
-
 ---
-
-## Awarded Grants
-
-**Data 61 PhD Scholarship Grant**  
-*"Sub-optimal but Comprehensive Approach for AI with Differential Privacy and Fairness"*  
-- **Role:** PI  
-- **Project Duration:** 08/01/2021 – 08/31/2025  
-- **Awarded Amount:** $55,000 per annum  
-
-**Vacation Students Scholarship Grant**  
-*"Utility-driven Statistical Inference Engine with Local Differential Privacy"*  
-- **Role:** PI  
-- **Project Duration:** 12/01/2021 – 03/31/2022  
-- **Awarded Amount:** $22,000 (CSIRO Data 61, Pawsey Supercomputing)  
-
----
-
 ## Invited Talks
 
 1. *Preserving Both Privacy and Utility in Network Trace Anonymization*  
@@ -189,7 +169,11 @@ author_profile: true
    Discovery Partners Institute (DPI) RD Seminar, Chicago, IL, USA — **September 9, 2021**
 
 ---
+<style>
+  .small-news { font-size: 14px; line-height: 1.5; }
+</style>
 
+<div class="small-news" markdown="1">
 ## Demonstrations
 
 1. *Preserving Both Privacy and Utility in Network Trace Anonymization*  
