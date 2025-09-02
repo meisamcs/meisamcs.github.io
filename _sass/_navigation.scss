@@ -88,7 +88,7 @@
       border-radius: 0;
 
       &:hover {
-        color: $link-color-hover;
+        color: black;
       }
 
       &.current {
@@ -136,7 +136,7 @@
     border-radius: $border-radius;
 
     &:hover {
-      color: $link-color-hover;
+      color: black;
     }
 
     &:first-child {
@@ -182,17 +182,17 @@
     margin: 0 1rem;
     font-size: 0.9em;
     padding: 0.5rem;
-    background: #2b9323;
+    // background: #2b9323;
     border-radius: 5px;
     /*color: $masthead-link-color;*/
-    color: #ffffff;
+    color: #070000;
     text-decoration: none;
     cursor: pointer;
     font-family: 'lato', sans-serif;
 
     &:hover {
       /*color: $masthead-link-color-hover;*/
-      color: #fafafa;
+      color: black;
     }
   }
 

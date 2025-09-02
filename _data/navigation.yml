@@ -1,7 +1,5 @@
 # main links links
 main:
-    - title: "Publications"
-      url: /publications/
 
     - title: "Research"
       url: /research/
@@ -11,6 +9,9 @@ main:
 
     - title: "Group"
       url: /group/
+
+    - title: "Privacy Blogs"
+      url: /blog/
 
 
     
