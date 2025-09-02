@@ -1,5 +1,4 @@
 ---
-title: "Group"
 permalink: /group/
 author_profile: true
 ---
@@ -27,13 +26,10 @@ author_profile: true
 - Ayesha Samreen (PhD)  
 
 ## Former Students
-- Md. Rayhanul Islam (PhD)  
-- Daniel A. Asante (PhD)  
 - Thirasara Ariyaratna (PhD)  
 - Kane Walter (PhD)  
 - Gnanakumar Thedchanamoorthy (PhD)  
-- Hrishi Masurkar (BS)  
-- Fardeen Shaikh (MSc)  
+- Hrishi Masurkar (BS)   
 - Paige Rolling (BS)  
 
 </div>
