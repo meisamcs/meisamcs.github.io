@@ -1,31 +1,40 @@
 ---
-title: "Research"
+title: ""
 permalink: /research/
 author_profile: true
 ---
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
+<style>
+  .small-news { font-size: 14px; line-height: 1.5; }
+</style>
 
-{% include base_path %}
+<div class="small-news" markdown="1">
+
 # Funding
 
-- **G.1.** *NSF CISE PDaSP Track 2: Holistic Privacy-Preserving Collaborative Data Sharing for Intelligent Transportation*  
-  **NSF #2452747**, co-PI (ISU PI)  
-  **$1.2M total ($250K ISU share)**  
+- **G.1.** *[NSF PDaSP Track 2: Holistic Privacy-Preserving Collaborative Data Sharing for Intelligent Transportation](https://nsf.elsevierpure.com/en/projects/pdasp-track-2-a-holistic-privacy-preserving-collaborative-data-sh-3)*  
+  **NSF #2452747**, Co-PI (ISU PI)  
+  **Funding:** $1.2M total ($250K ISU share)  
   **Duration:** Oct 2025 – Oct 2028  
   **Lead PI:** Yuan Hong (UConn)  
   **Co-PIs:** Xuegang Ban (UW), Binghui Wang (IIT)  
+  This project focuses on **building a holistic system for privately sharing naturalistic driving data**, enabling collaborative research while preserving user privacy. We are very grateful to **NSF** and **FHWA/DOT** for their generous support!  
+
+</div>
+
+
+
 
 ---
+<style>
+  .small-news { font-size: 14px; line-height: 1.5; }
+</style>
+
+<div class="small-news" markdown="1">
 
 # Refereed Publications
 
-1. Qin Yang, Nicholas Stout, **Meisam Mohammady (Corresponding author)**, Han Wang, Ayesha Samreen, Christopher J Quinn, Yan Yan, Ashish Kundu, Yuan Hong.  
-   *PLRV-O: Advancing Differentially Private Deep Learning via Privacy Loss Random Variable Optimization.*  
-   **Proceedings of the 2025 ACM Conference on Computer and Communications Security (CCS '25).**  
-   *Acceptance rate: TBD*.
+1. Qin Yang, Nicholas Stout, **Meisam Mohammady (Corresponding author)**, Han Wang, Ayesha Samreen, Christopher J Quinn, Yan Yan, Ashish Kundu, Yuan Hong. *PLRV-O: Advancing Differentially Private Deep Learning via Privacy Loss Random Variable Optimization. **Proceedings of the 2025 ACM Conference on Computer and Communications Security (CCS '25).**   *Acceptance rate: TBD*.
 
 2. Thirasara Ariyarathna, Salil Kanhere, Hye-Young (Helen) Paik, **Meisam Mohammady**.  
    *FedSIG: Privacy-Preserving Federated Recommendation via Synthetic Interaction Generation.*  
