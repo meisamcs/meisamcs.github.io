@@ -151,11 +151,7 @@ author_profile: true
     *H-index: 118*.
 
 ---
-<style>
-  .small-news { font-size: 14px; line-height: 1.5; }
-</style>
 
-<div class="small-news" markdown="1">
 
 ## Invited Talks
 
@@ -175,11 +171,7 @@ author_profile: true
    Discovery Partners Institute (DPI) RD Seminar, Chicago, IL, USA — **September 9, 2021**
 
 ---
-<style>
-  .small-news { font-size: 14px; line-height: 1.5; }
-</style>
 
-<div class="small-news" markdown="1">
 ## Demonstrations
 
 1. *Preserving Both Privacy and Utility in Network Trace Anonymization*  
