@@ -1,299 +1,49 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
-
-# Site Settings
+# --- Site basics ---
 locale: "en-US"
-title: "Home"
-title_separator: "-"
-name: &name "Meisam Mohammady"
-remote_theme: pages-themes/cayman@v0.2.0
-description: &description "Dr. Meisam Mohammady is an Assistant Professor in the Department of Computer Science at Iowa State University (ISU). Prior to joining ISU, he was a Research Scientist at CSIRO Data61, Australia’s leading digital research network, helping various partners across business, government, and industry to solve a wide range of data-centric problems."
+title: ""          # leave empty to hide Cayman's big blue header text
+description: ""    # leave empty too
+name: "Meisam Mohammady"
 url: https://meisamcs.github.io
 baseurl: ""
 repository: "meisamcs/meisamcs.github.io"
-teaser: 
-breadcrumbs: false
-words_per_minute: 160
-future: true
-read_more: "disabled"
-talkmap_link: false
-comments:
-  provider: 
-  disqus:
-    shortname:
-  discourse:
-    server: 
-  facebook:
-    appid: 
-    num_posts: 
-    colorscheme: 
-staticman:
-  allowedFields: ['name', 'email', 'url', 'message']
-  branch: "gh-pages"
-  commitMessage: "New comment."
-  filename: comment-{@timestamp}
-  format: "yml"
-  moderation: true
-  path: "_data/comments/{options.slug}"
-  requiredFields: ['name', 'email', 'message']
-  transforms:
-    email: "md5"
-  generatedFields:
-    date:
-      type: "date"
-      options:
-        format: "iso8601"
-atom_feed:
-  path                   : # blank (default) uses feed.xml
+timezone: America/Chicago
 
-# SEO Related
-google_site_verification :
-bing_site_verification   :
-alexa_site_verification  :
-yandex_site_verification :
-
-# Social Sharing
-#twitter                  : "https://twitter.com/MohammadyMeisam"
- # username               : "https://twitter.com/MohammadyMeisam"
-facebook:
-  username               :
-  app_id                 :
-  publisher              :
-# For specifying social profiles
-# - https://developers.google.com/structured-data/customize/social-profiles
-social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
-
-
-# Analytics
-analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
-  google:
-    tracking_id          :
-
-
-# Site Author
-author:
-  name             : "Meisam Mohammady"
-  avatar           : "profilepic.jpg"
-  bio              : "  Address: 2434 Osborn Dr, Department of Computer Science, Iowa State University, Ames, IA, 50011 <br> <b>Office: 232 Atanasoff Hall</b> <br> <b>E-mail: meisam@iastate.edu</b>"
-  #pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "https://scholar.google.ca/citations?user=UL-3sUgAAAAJ&hl=en"
-  #Email            : "meisam AT iastate DOT edu"
-  #email            : "meisam AT iastate DOT edu"
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
-  uri              :
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-
-  foursquare       :
-  #github           : "academicpages"
-  google_plus      :
-  keybase          :
-  instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
-  lastfm           :
-  #linkedin         :
- # orcid            : "http://orcid.org/yourorcidurl"
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
-  steam            :
-  tumblr           :
-  vine             :
-  weibo            :
-  xing             :
-  youtube          :
-  wikipedia        :
-
-
-# Reading Files
-include:
-  - .htaccess
-  - _pages
-  - files
-exclude:
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - .asset-cache
-  - .bundle
-  - .jekyll-assets-cache
-  - .sass-cache
-  - CHANGELOG
-  - Capfile
-  - Gemfile
-  - Gruntfile.js
-  - LICENSE
-  - README
-  - Rakefile
-  - assets/js/_main.js
-  - assets/js/plugins
-  - assets/js/vendor
-  - config
-  - gulpfile.js
-  - log
-  - node_modules
-  - package.json
-  - tmp
-  - vendor
-keep_files:
-  - .git
-  - .svn
-encoding: "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
-
-# Conversion
-markdown: kramdown
-highlighter: rouge
-lsi: false
-excerpt_separator: "\n\n"
-incremental: false
-
-
-# Markdown Processing
-kramdown:
-  input: GFM
-  hard_wrap: false
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
-
-
-# Collections
-collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
-  research:
-    output: true
-    permalink: /:collection/:path/
-  talks:
-    output: true
-    permalink: /:collection/:path/
-
-
-# Defaults
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-  # _teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-  # _research
-  - scope:
-      path: ""
-      type: research
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
-
-# Sass/SCSS
-sass:
-  sass_dir: _sass
-  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
-
-
-# Outputting
-permalink: /:categories/:title/
-# paginate: 5 # amount of posts to show
-# paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
-
-# Plugins
+# --- Theme ---
+remote_theme: pages-themes/cayman@v0.2.0
+# (For local builds, you may need: jekyll-remote-theme)
 plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
   - jekyll-feed
-  - jekyll-redirect-from
-  
-# mimic GitHub Pages with --safe
-whitelist:
-  - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
   - jemoji
 
+# --- Author ---
+author:
+  name: "Meisam Mohammady"
+  avatar: "meisam.png"  # put profilepic.jpg in the root of your repo
+  bio: "Address: 2434 Osborn Dr, Department of Computer Science, Iowa State University, Ames, IA, 50011 <br><b>Office: 232 Atanasoff Hall</b><br><b>E-mail: meisam@iastate.edu</b>"
+  googlescholar: "https://scholar.google.ca/citations?user=UL-3sUgAAAAJ&hl=en"
 
-# Archives
-#  Type
-#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
-#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
-#  Path (examples)
-#  - Archive page should exist at path when using Liquid method or you can
-#    expect broken links (especially with breadcrumbs enabled)
-#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
-#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
-#  - <base_path/my-awesome-category/index.html ~> path: /
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
-# https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
+# --- Markdown Rendering ---
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  parse_block_html: true
+  hard_wrap: false
+  auto_ids: true
+  entity_output: as_char
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+excerpt_separator: "\n\n"
 
+# --- Defaults (Cayman layout only) ---
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
 
-# HTML Compression
-# - http://jch.penibelst.de/
+# --- Compression ---
 compress_html:
-  clippings: all
+  clippings: none
   ignore:
     envs: development
