@@ -5,6 +5,7 @@ title: ""
 ---
 
 <style>
+nav:not(.topnav){ display: none !important; }  /* hide any extra theme nav */
 .page-header{display:none!important}.page-header .project-name,.page-header .project-tagline,.page-header .btn{display:none!important}
 footer.site-footer { display: none !important; }
 .main-content{max-width:860px;margin:0 auto;padding:0 1rem!important;line-height:1.65}

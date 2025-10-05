@@ -6,6 +6,7 @@ title: "Group"
 
 <style>
 /* Hide Cayman's blue header */
+nav:not(.topnav){ display: none !important; }  /* hide any extra theme nav */
 footer.site-footer { display: none !important; }
 .page-header{display:none!important}
 .page-header .project-name,.page-header .project-tagline,.page-header .btn{display:none!important}
