@@ -1,5 +1,6 @@
 ---
 title: "Sitemap"
+layout: default
 permalink: /sitemap/
 author_profile: true
 ---

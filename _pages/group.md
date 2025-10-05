@@ -1,23 +1,43 @@
 ---
+layout: default
 permalink: /group/
-author_profile: true
+title: "Group"
 ---
 
-{% include base_path %}
-
 <style>
-  /* Scoped to this page only */
-  .small-text { 
-    font-size: 14px; 
-    line-height: 1.6; 
-    margin-top: -1cm; /* pushes content up by 1cm */
-  }
-  .small-text h1 { font-size: 22px; margin-top: 1.2em; }
-  .small-text h2 { font-size: 18px; margin-top: 1.1em; }
-  .small-text h3 { font-size: 16px; margin-top: 1em; }
-  .small-text ul { margin-left: 1.2em; }
-  .small-text hr { margin: 1.2em 0; }
+/* Hide Cayman's blue header */
+footer.site-footer { display: none !important; }
+.page-header{display:none!important}
+.page-header .project-name,.page-header .project-tagline,.page-header .btn{display:none!important}
+
+/* Page layout */
+.main-content{max-width:860px;margin:0 auto;padding:0 1rem!important;line-height:1.65}
+.main-content,*{overflow-wrap:anywhere}
+
+/* Navigation bar */
+.topnav{position:sticky;top:0;z-index:20;display:flex;gap:14px;align-items:center;
+  padding:.6rem 1rem;background:#fff;border-bottom:1px solid #e5e5e5}
+.topnav a{text-decoration:none;font-weight:600;color:#1f2328}
+.topnav a:hover{text-decoration:underline}
+.topnav .active{color:#0366d6}
+
+/* Page text */
+.small-text{font-size:14px;line-height:1.6;margin-top:0}
+.small-text h2{font-size:18px;margin-top:1.1em}
+.small-text h3{font-size:16px;margin-top:1em}
+.small-text ul{margin:.4rem 0 .8rem 1.2rem}
+.small-text hr{margin:1.2em 0;border:0;border-top:1px solid #e5e5e5}
+
+@media (max-width:640px){.small-text{font-size:15px;line-height:1.7}}
 </style>
+
+<nav class="topnav">
+  <a href="/">Home</a>
+  <a href="/research/">Research</a>
+  <a href="/teaching/">Teaching</a>
+  <a class="active" href="/group/">Group</a>
+  <a href="/blog/">Reading</a>
+</nav>
 
 <div class="small-text" markdown="1">
 
@@ -25,11 +45,21 @@ author_profile: true
 - Nicholas Stout (PhD)  
 - Ayesha Samreen (PhD)  
 
+<hr>
+
 ## Former Students
-- Thirasara Ariyaratna (PhD)  
+- Thirasara Ariyarathna (PhD)  
 - Kane Walter (PhD)  
 - Gnanakumar Thedchanamoorthy (PhD)  
-- Hrishi Masurkar (BS)   
-- Paige Rolling (BS)  
+- Hrishi Masurkar (BS)  
+- Paige Rolling (BS)
+
+<hr>
+
+### Collaborators
+- Prof. Yuan Hong (UConn)  
+- Prof. Christopher J. Quinn (ISU)  
+- Prof. Salil Kanhere (UNSW)  
+- CSIRO Data61, Australia
 
 </div>
