@@ -5,20 +5,28 @@ title: "Research"
 ---
 
 <style>
-/* Hide Cayman header + any theme navs */
+/* Hide Cayman blue header on this page */
+footer.site-footer { display: none !important; }
 .page-header{display:none!important}
 .page-header .project-name,.page-header .project-tagline,.page-header .btn{display:none!important}
-nav:not(.topnav){display:none!important}  /* <-- prevents duplicate centered tabs */
 
-/* Page width + type */
+/* Comfortable page width */
 .main-content{max-width:860px;margin:0 auto;padding:0 1rem!important;line-height:1.65}
 .main-content,*{overflow-wrap:anywhere}
 
-/* Our tabs */
+/* Simple sticky nav (same as Home) */
 .topnav{position:sticky;top:0;z-index:20;display:flex;gap:14px;align-items:center;padding:.6rem 1rem;background:#fff;border-bottom:1px solid #e5e5e5}
 .topnav a{text-decoration:none;font-weight:600;color:#1f2328}
 .topnav a:hover{text-decoration:underline}
 .topnav .active{color:#0366d6}
+
+/* Small text section helper */
+.small-news{font-size:14px;line-height:1.55}
+.small-news h1,.small-news h2{margin:.9rem 0 .4rem}
+.small-news p{margin:.4rem 0 .6rem}
+.small-news ul{margin:.4rem 0 .8rem 1.2rem}
+hr{border:0;border-top:1px solid #e5e5e5;margin:1rem 0}
+@media (max-width:640px){.small-news{font-size:15px;line-height:1.7}}
 </style>
 
 <nav class="topnav">
