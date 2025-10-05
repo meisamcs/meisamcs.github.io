@@ -5,28 +5,41 @@ title: ""
 ---
 
 <style>
-nav:not(.topnav){ display: none !important; }  /* hide any extra theme nav */
-.page-header{display:none!important}.page-header .project-name,.page-header .project-tagline,.page-header .btn{display:none!important}
-footer.site-footer { display: none !important; }
+/* Hide Cayman header + default footer + any theme navs */
+.page-header{display:none!important}
+.page-header .project-name,.page-header .project-tagline,.page-header .btn{display:none!important}
+footer.site-footer{display:none!important}
+nav:not(.topnav){display:none!important}
+
+/* Page width & typography */
 .main-content{max-width:860px;margin:0 auto;padding:0 1rem!important;line-height:1.65}
 .main-content,.main-content *{overflow-wrap:anywhere}
+
+/* Top nav */
 .topnav{position:sticky;top:0;z-index:20;display:flex;gap:14px;align-items:center;padding:.6rem 1rem;background:#fff;border-bottom:1px solid #e5e5e5}
 .topnav a{text-decoration:none;font-weight:600;color:#1f2328}
 .topnav a:hover{text-decoration:underline}
 .topnav .active{color:#0366d6}
+
+/* Intro row: photo & contacts left, bio right */
 .intro{display:flex;gap:18px;align-items:flex-start;margin:14px 0 10px}
 .intro-left{flex:0 0 170px}
 .pp{width:150px;height:150px;border-radius:50%;object-fit:cover;border:3px solid #e5e5e5;display:block}
-.contact{margin-top:.6rem;font-size:.8rem;line-height:1.3}  /* smaller font */
+.contact{margin-top:.6rem;font-size:.8rem;line-height:1.3}
 .contact a{color:#0366d6;text-decoration:none}
 .contact a:hover{text-decoration:underline}
 .intro-right{flex:1 1 auto}
+
+/* Body text + lists */
 .small-text{font-size:14px;line-height:1.6;margin-top:0}
 .small-text h2{font-size:18px;margin-top:1.1em}
 .small-text hr{margin:1.2em 0}
+
+/* News bullets */
 .sublist{list-style:none;padding-left:0;margin:.35rem 0 0}
 .sublist li{position:relative;padding-left:1.3rem;margin:.45rem 0}
 .sublist li::before{content:"🔹";position:absolute;left:0;top:.15rem}
+
 @media (max-width:720px){
   .intro{flex-direction:column;gap:12px}
   .intro-left{flex:unset}
@@ -34,7 +47,6 @@ footer.site-footer { display: none !important; }
   .small-text{font-size:15px;line-height:1.7}
 }
 </style>
-
 
 <nav class="topnav">
   <a class="active" href="/">Home</a>
@@ -52,7 +64,9 @@ footer.site-footer { display: none !important; }
       <div><strong>Address</strong>: 2434 Osborn Dr<br>Dept. of Computer Science<br>Iowa State University<br>Ames, IA 50011</div>
       <div style="margin-top:.4rem;"><strong>Office</strong>: 232 Atanasoff Hall</div>
       <div style="margin-top:.4rem;"><strong>Email</strong>: <a href="mailto:meisam@iastate.edu">meisam@iastate.edu</a></div>
-      <div style="margin-top:.4rem;"><a href="https://scholar.google.ca/citations?user=UL-3sUgAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar →</a></div>
+      <div style="margin-top:.4rem;">
+        <a href="https://scholar.google.ca/citations?user=UL-3sUgAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar →</a>
+      </div>
     </div>
   </div>
 
