@@ -3,31 +3,38 @@ layout: default
 permalink: /research/
 title: "Research"
 ---
-<link rel="stylesheet" href="{{ '/assets/css/site-overrides.css?v=1' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/site-overrides.css?v=2' | relative_url }}">
 
 <style>
-/* Hide Cayman blue header on this page */
-footer.site-footer { display: none !important; }
+/* Hide Cayman header/footer */
 .page-header{display:none!important}
-.page-header .project-name,.page-header .project-tagline,.page-header .btn{display:none!important}
+footer.site-footer{display:none!important}
 
-/* Comfortable page width */
-.main-content{max-width:860px;margin:0 auto;padding:0 1rem!important;line-height:1.65}
-.main-content,*{overflow-wrap:anywhere}
+/* Comfortable width + NO mid-word breaking */
+.main-content{max-width:900px;margin:0 auto;padding:0 1rem!important;line-height:1.65}
+.main-content, .main-content *{overflow-wrap:normal;word-break:normal;hyphens:auto}
 
-/* Simple sticky nav (same as Home) */
-.topnav{position:sticky;top:0;z-index:20;display:flex;gap:14px;align-items:center;padding:.6rem 1rem;background:#fff;border-bottom:1px solid #e5e5e5}
-.topnav a{text-decoration:none;font-weight:600;color:#1f2328}
+/* Simple sticky nav (same feel as Home) */
+.topnav{
+  position:sticky;top:0;z-index:20;
+  display:flex;flex-wrap:wrap;gap:.4rem .75rem;align-items:center;
+  padding:.6rem 1rem;background:#fff;border-bottom:1px solid #e5e5e5
+}
+.topnav a{
+  white-space:nowrap;overflow-wrap:normal;word-break:normal;
+  text-decoration:none;font-weight:600;color:#1f2328
+}
 .topnav a:hover{text-decoration:underline}
 .topnav .active{color:#0366d6}
 
-/* Small text section helper */
-.small-news{font-size:14px;line-height:1.55}
-.small-news h1,.small-news h2{margin:.9rem 0 .4rem}
-.small-news p{margin:.4rem 0 .6rem}
-.small-news ul{margin:.4rem 0 .8rem 1.2rem}
-hr{border:0;border-top:1px solid #e5e5e5;margin:1rem 0}
-@media (max-width:640px){.small-news{font-size:15px;line-height:1.7}}
+/* Page typography — rem so global scaling applies */
+.page-body{font-size:1rem;line-height:1.65}
+.page-body h1{font-size:1.35rem;margin:.9rem 0 .4rem}
+.page-body h2{font-size:1.2rem;margin:.85rem 0 .4rem}
+.page-body h3{font-size:1.05rem;margin:.8rem 0 .35rem}
+.page-body ul, .page-body ol{margin:.4rem 0 .8rem 1.2rem}
+.page-body li{margin:.25rem 0}
+.page-body hr{margin:1rem 0;border:0;border-top:1px solid #e5e5e5}
 </style>
 
 <nav class="topnav">
@@ -35,10 +42,10 @@ hr{border:0;border-top:1px solid #e5e5e5;margin:1rem 0}
   <a class="active" href="/research/">Research</a>
   <a href="/teaching/">Teaching</a>
   <a href="/group/">Group</a>
-  <a href="/blog/">Reading</a>
+  <a href="/blog/">Readings</a>
 </nav>
 
-<div class="small-news" markdown="1">
+<div class="page-body" markdown="1">
 
 # Funding
 
@@ -54,7 +61,7 @@ hr{border:0;border-top:1px solid #e5e5e5;margin:1rem 0}
 
 <hr>
 
-<div class="small-news" markdown="1">
+<div class="page-body" markdown="1">
 
 # Refereed Publications
 
@@ -158,7 +165,7 @@ hr{border:0;border-top:1px solid #e5e5e5;margin:1rem 0}
 
 <hr>
 
-<div class="small-news" markdown="1">
+<div class="page-body" markdown="1">
 
 ## Invited Talks
 
@@ -172,7 +179,7 @@ hr{border:0;border-top:1px solid #e5e5e5;margin:1rem 0}
 
 <hr>
 
-<div class="small-news" markdown="1">
+<div class="page-body" markdown="1">
 
 ## Demonstrations
 
