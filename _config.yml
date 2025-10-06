@@ -6,26 +6,24 @@ url: https://meisamcs.github.io
 baseurl: ""
 repository: "meisamcs/meisamcs.github.io"
 timezone: America/Chicago
+
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-remote-theme
-author:
-  name: "Meisam Mohammady"
-  avatar: "meisam.png"
-  bio: "Address: 2434 Osborn Dr, Department of Computer Science, Iowa State University, Ames, IA, 50011 <br><b>Office: 232 Atanasoff Hall</b><br><b>E-mail: meisam@iastate.edu</b>"
-  googlescholar: "https://scholar.google.ca/citations?user=UL-3sUgAAAAJ&hl=en"
+
 markdown: kramdown
 highlighter: rouge
 kramdown:
   input: GFM
-  parse_block_html: true
-  hard_wrap: false
-  auto_ids: true
-  entity_output: as_char
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
 excerpt_separator: "\n\n"
+
+# keep _pages working on GitHub Pages (safe mode)
+include:
+  - _pages
+  - _posts
+
 defaults:
   - scope:
       path: ""
@@ -41,26 +39,3 @@ defaults:
     values:
       layout: default
       permalink: /blog/:year/:month/:day/:title/
-include:
-  - _pages
-  - _posts
-exclude:
-  - Certificate.PNG
-  - 2022 Certificate.PNG
-  - 2024 Certificate.PNG
-  - talkmap
-  - talkmap.ipynb
-  - talkmap.py
-  - markdown_generator
-  - files
-  - images
-  - assets
-  - backup
-  - README.md
-  - CONTRIBUTING.md
-  - CHANGELOG.md
-  - 2022
-  - 2024
-  - Welcome file.html
-  - package.json
-  - robots.txt
