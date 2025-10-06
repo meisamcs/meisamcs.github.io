@@ -6,6 +6,45 @@ title: ""
 
 <!-- Hide Cayman header & set layout width -->
 <style>
+.page-header{display:none!important}
+.page-header .project-name,.page-header .project-tagline,.page-header .btn{display:none!important}
+footer.site-footer { display: none !important; }
+
+.main-wrapper{display:flex;flex-wrap:wrap;justify-content:space-between;max-width:950px;margin:0 auto;padding:0 1rem}
+.left-col{flex:1 1 620px;min-width:320px;line-height:1.65}
+.right-col{flex:0 0 250px;font-size:14px;color:#333;margin-top:1rem}
+.right-col h3{margin-top:0.5rem;font-size:15px;font-weight:700;border-bottom:1px solid #eee;padding-bottom:0.2rem}
+.right-col p{margin:0.3rem 0}
+.right-col a{color:#0366d6;text-decoration:none}
+.right-col a:hover{text-decoration:underline}
+
+.topnav{position:sticky;top:0;z-index:20;display:flex;gap:14px;align-items:center;padding:.6rem 1rem;background:#fff;border-bottom:1px solid #e5e5e5}
+.topnav a{text-decoration:none;font-weight:600;color:#1f2328}
+.topnav a:hover{text-decoration:underline}
+.topnav .active{color:#0366d6}
+
+@media (max-width:720px){
+  .main-wrapper{flex-direction:column}
+  .right-col{margin-top:2rem}
+}
+</style>
+
+<nav class="topnav">
+  <a class="active" href="/">Home</a>
+  <a href="/research/">Research</a>
+  <a href="/teaching/">Teaching</a>
+  <a href="/group/">Group</a>
+  <a href="/blog/">Reading</a>
+</nav>
+
+<div class="main-wrapper">
+
+  <!-- LEFT COLUMN: Bio + News -->
+  <div class="left-col">
+
+
+<!-- Hide Cayman header & set layout width -->
+<style>
 .page-header{display:none!important}.page-header .project-name,.page-header .project-tagline,.page-header .btn{display:none!important}
 footer.site-footer { display: none !important; }
 .main-content{max-width:860px;margin:0 auto;padding:0 1rem!important;line-height:1.65}
@@ -23,26 +62,37 @@ footer.site-footer { display: none !important; }
 @media (max-width:640px){.small-text{font-size:15px;line-height:1.7}}
 </style>
 
-<nav class="topnav">
-  <a class="active" href="/">Home</a>
-  <a href="/research/">Research</a>
-  <a href="/teaching/">Teaching</a>
-  <a href="/group/">Group</a>
-  <a href="/blog/">Reading</a>
-</nav>
-
-<p style="text-align:center;margin-top:1rem;">
-  <img src="{{ '/meisam.png?v=1' | relative_url }}" alt="Meisam Mohammady"
-       style="width:150px;height:150px;border-radius:50%;object-fit:cover;border:3px solid #e5e5e5;">
-</p>
-
 <div class="small-text" markdown="1">
+<!-- === Profile Image + Compact Contact Aligned Right === -->
+<div style="display:flex;justify-content:center;align-items:flex-start;gap:1.2rem;flex-wrap:wrap;margin-top:1.2rem;">
+
+  <!-- LEFT: Portrait -->
+  <div style="flex:0 0 auto;">
+    <img src="{{ '/meisam.png?v=1' | relative_url }}" alt="Meisam Mohammady"
+         style="width:150px;height:150px;border-radius:50%;object-fit:cover;border:3px solid #e5e5e5;">
+  </div>
+
+  <!-- RIGHT: Compact Contact Box -->
+  <div style="flex:0 0 auto;font-size:13px;line-height:1.4;color:#333;text-align:left;max-width:220px;">
+    <strong>Contact</strong><br>
+    2434 Osborn Dr<br>
+    Department of Computer Science<br>
+    Iowa State University<br>
+    Ames, IA 50011 USA<br>
+    <strong>Office:</strong> 232 Atanasoff Hall<br>
+    <strong>Email:</strong> <a href="mailto:meisam@iastate.edu" style="color:#0366d6;text-decoration:none;">meisam@iastate.edu</a><br>
+    <strong>Affiliation:</strong><br>
+    ISU Responsible Computing Lab<br>
+    <span style="color:#777;">© {{ site.time | date: "%Y" }} Meisam Mohammady</span>
+  </div>
+
+</div>
 
 **Dr. Meisam Mohammady** is an Assistant Professor in the [Department of Computer Science](https://www.cs.iastate.edu) at [Iowa State University](https://www.iastate.edu) (ISU), where his research focuses on developing responsible Machine Learning methods that are **privacy-preserving, adversarially robust, and fair**, leveraging tools such as *Differential Privacy, Learning Theory,* and *Optimization*, with applications in *High Performance Computing (HPC), Federated Learning (FL), Networking, Anomaly Detection,* and *Private Retrieval*. His research has been published in top-tier conferences and journals such as IEEE Symposium on Security and Privacy (**IEEE S&P**), ACM Conference on Computer and Communications Security (**ACM CCS**), ACM Transactions on Intelligent Systems and Technology (**ACM TIST**), IEEE Computer Security Foundations Symposium (**IEEE CSF**), IEEE Transactions on Dependable and Secure Computing (**IEEE TDSC**), ACM Transactions on Privacy and Security (**ACM TOPS**), and IEEE Transactions on Knowledge and Data Engineering (**IEEE TKDE**).
 
 Prior to joining ISU, he was a Research Scientist at [CSIRO](https://www.csiro.au/en/)'s [Data61](https://data61.csiro.au/), Australia's leading digital research network.
 
-👉 [Access my CV here](_pages/CVa.pdf)
+👉 [Access my CV here](_pages/CV.pdf)
 
 ---
 I am always looking for **motivated students, visiting scholars/students, and undergraduate researchers**.  
