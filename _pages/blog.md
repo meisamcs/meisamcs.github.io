@@ -13,7 +13,7 @@ footer.site-footer { display: none !important; }
 
 /* Layout + typography */
 .main-content{max-width:860px;margin:0 auto;padding:0 1rem!important;line-height:1.65}
-.main-content,*{overflow-wrap:anywhere}
+.main-content,*{overflow-wrap:normal;word-break:normal;hyphens:auto}
 
 /* Sticky nav (same as your other pages — edit labels/URLs as you like) */
 .topnav{position:sticky;top:0;z-index:20;display:flex;gap:14px;align-items:center;padding:.6rem 1rem;background:#fff;border-bottom:1px solid #e5e5e5}
