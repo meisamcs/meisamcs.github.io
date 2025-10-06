@@ -4,48 +4,23 @@ permalink: /
 title: ""
 ---
 
+<!-- Hide Cayman header & set layout width -->
 <style>
-/* Hide Cayman header + default footer + any theme navs */
-.page-header{display:none!important}
-.page-header .project-name,.page-header .project-tagline,.page-header .btn{display:none!important}
-footer.site-footer{display:none!important}
-nav:not(.topnav){display:none!important}
-
-/* Page width & typography */
+.page-header{display:none!important}.page-header .project-name,.page-header .project-tagline,.page-header .btn{display:none!important}
+footer.site-footer { display: none !important; }
 .main-content{max-width:860px;margin:0 auto;padding:0 1rem!important;line-height:1.65}
 .main-content,.main-content *{overflow-wrap:anywhere}
-
-/* Top nav */
 .topnav{position:sticky;top:0;z-index:20;display:flex;gap:14px;align-items:center;padding:.6rem 1rem;background:#fff;border-bottom:1px solid #e5e5e5}
 .topnav a{text-decoration:none;font-weight:600;color:#1f2328}
 .topnav a:hover{text-decoration:underline}
 .topnav .active{color:#0366d6}
-
-/* Intro row: photo & contacts left, bio right */
-.intro{display:flex;gap:18px;align-items:flex-start;margin:14px 0 10px}
-.intro-left{flex:0 0 170px}
-.pp{width:150px;height:150px;border-radius:50%;object-fit:cover;border:3px solid #e5e5e5;display:block}
-.contact{margin-top:.6rem;font-size:.8rem;line-height:1.3}
-.contact a{color:#0366d6;text-decoration:none}
-.contact a:hover{text-decoration:underline}
-.intro-right{flex:1 1 auto}
-
-/* Body text + lists */
 .small-text{font-size:14px;line-height:1.6;margin-top:0}
 .small-text h2{font-size:18px;margin-top:1.1em}
 .small-text hr{margin:1.2em 0}
-
-/* News bullets */
 .sublist{list-style:none;padding-left:0;margin:.35rem 0 0}
 .sublist li{position:relative;padding-left:1.3rem;margin:.45rem 0}
 .sublist li::before{content:"🔹";position:absolute;left:0;top:.15rem}
-
-@media (max-width:720px){
-  .intro{flex-direction:column;gap:12px}
-  .intro-left{flex:unset}
-  .pp{width:140px;height:140px}
-  .small-text{font-size:15px;line-height:1.7}
-}
+@media (max-width:640px){.small-text{font-size:15px;line-height:1.7}}
 </style>
 
 <nav class="topnav">
@@ -56,27 +31,18 @@ nav:not(.topnav){display:none!important}
   <a href="/blog/">Reading</a>
 </nav>
 
-<!-- Intro row -->
-<div class="intro">
-  <div class="intro-left">
-    <img class="pp" src="{{ '/meisam.png?v=1' | relative_url }}" alt="Meisam Mohammady">
-    <div class="contact">
-      <div><strong>Address</strong>: 2434 Osborn Dr<br>Dept. of Computer Science<br>Iowa State University<br>Ames, IA 50011</div>
-      <div style="margin-top:.4rem;"><strong>Office</strong>: 232 Atanasoff Hall</div>
-      <div style="margin-top:.4rem;"><strong>Email</strong>: <a href="mailto:meisam@iastate.edu">meisam@iastate.edu</a></div>
-      <div style="margin-top:.4rem;">
-        <a href="https://scholar.google.ca/citations?user=UL-3sUgAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar →</a>
-      </div>
-    </div>
-  </div>
+<p style="text-align:center;margin-top:1rem;">
+  <img src="{{ '/meisam.png?v=1' | relative_url }}" alt="Meisam Mohammady"
+       style="width:150px;height:150px;border-radius:50%;object-fit:cover;border:3px solid #e5e5e5;">
+</p>
 
-  <div class="intro-right small-text" markdown="1">
+<div class="small-text" markdown="1">
 
 **Dr. Meisam Mohammady** is an Assistant Professor in the [Department of Computer Science](https://www.cs.iastate.edu) at [Iowa State University](https://www.iastate.edu) (ISU), where his research focuses on developing responsible Machine Learning methods that are **privacy-preserving, adversarially robust, and fair**, leveraging tools such as *Differential Privacy, Learning Theory,* and *Optimization*, with applications in *High Performance Computing (HPC), Federated Learning (FL), Networking, Anomaly Detection,* and *Private Retrieval*. His research has been published in top-tier conferences and journals such as IEEE Symposium on Security and Privacy (**IEEE S&P**), ACM Conference on Computer and Communications Security (**ACM CCS**), ACM Transactions on Intelligent Systems and Technology (**ACM TIST**), IEEE Computer Security Foundations Symposium (**IEEE CSF**), IEEE Transactions on Dependable and Secure Computing (**IEEE TDSC**), ACM Transactions on Privacy and Security (**ACM TOPS**), and IEEE Transactions on Knowledge and Data Engineering (**IEEE TKDE**).
 
 Prior to joining ISU, he was a Research Scientist at [CSIRO](https://www.csiro.au/en/)'s [Data61](https://data61.csiro.au/), Australia's leading digital research network.
 
-👉 [Access my CV here](_pages/CV.pdf)
+👉 [Access my CV here](_pages/CVa.pdf)
 
 ---
 I am always looking for **motivated students, visiting scholars/students, and undergraduate researchers**.  
