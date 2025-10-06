@@ -1,0 +1,13 @@
+/* Global font downscale (about half on tiny phones) */
+@media (max-width: 720px){ html{ font-size:87.5%; } }
+@media (max-width: 560px){
+  html{ font-size:62.5%; }
+  .topnav{ gap:.3rem .6rem; padding:.5rem .75rem; }
+}
+@media (max-width: 420px){ html{ font-size:50%; } }
+
+/* Keep nav labels intact */
+.topnav a{ white-space:nowrap; word-break:normal; overflow-wrap:normal; }
+
+/* Optional: width */
+.main-content{ max-width:900px; margin:0 auto; padding:0 1rem; line-height:1.65; }
