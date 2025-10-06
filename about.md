@@ -92,7 +92,8 @@ footer.site-footer { display: none !important; }
 
 Prior to joining ISU, he was a Research Scientist at [CSIRO](https://www.csiro.au/en/)'s [Data61](https://data61.csiro.au/), Australia's leading digital research network.
 
-👉 [Access my CV here](_pages/CV.pdf)
+👉 [Access my CV here]({{ '/assets/cv/Meisam_Mohammady_CV_2025-10-05.pdf' | relative_url }})
+
 
 ---
 I am always looking for **motivated students, visiting scholars/students, and undergraduate researchers**.  
