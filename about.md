@@ -3,16 +3,16 @@ layout: default
 permalink: /
 title: ""
 ---
-<link rel="stylesheet" href="{{ '/assets/css/site-overrides.css?v=1' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/site-overrides.css?v=2' | relative_url }}">
 
 <style>
-/* Hide Cayman header/footer; tighten content width */
+/* Hide Cayman header/footer; comfy width */
 footer.site-footer{display:none!important}
 .page-header{display:none!important}
 .main-content{max-width:900px;margin:0 auto;padding:0 1rem!important;line-height:1.65}
 
-/* Prevent mid-word breaks globally */
-.main-content,.main-content *{overflow-wrap:normal;word-break:normal}
+/* No mid-word breaks */
+.main-content,.main-content *{overflow-wrap:normal;word-break:normal;hyphens:auto}
 
 /* TOP NAV: wraps cleanly on mobile */
 .topnav{
@@ -27,10 +27,9 @@ footer.site-footer{display:none!important}
 .topnav a:hover{text-decoration:underline}
 .topnav .active{color:#0366d6}
 
-/* HEADER ROW: image + compact contact */
+/* Header row: image + compact contact */
 .header-row{display:flex;align-items:flex-start;gap:12px;margin:10px 0 16px;flex-wrap:nowrap}
 .avatar{
-  /* auto-scale: smaller on phones, capped on desktop */
   width:clamp(80px,18vw,130px);
   height:clamp(80px,18vw,130px);
   border-radius:50%;object-fit:cover;border:3px solid #e5e5e5
@@ -39,18 +38,16 @@ footer.site-footer{display:none!important}
 .contact a{color:#0366d6;text-decoration:none}
 .contact a:hover{text-decoration:underline}
 
-/* === Responsive font downscale (roughly half on tiny phones) === */
-@media (max-width: 720px){
-  html{font-size:87.5%}     /* ~14px base */
-}
-@media (max-width: 560px){
-  html{font-size:62.5%}     /* ~10px base */
+/* Page body (use rem so global scaling applies) */
+.page-body{font-size:1rem;line-height:1.65}
+.page-body h2{font-size:1.2rem;margin-top:1.1em}
+.page-body ul{margin:.4rem 0 .8rem 1.2rem}
+
+/* Extra mobile tweaks */
+@media (max-width:560px){
   .topnav{gap:.3rem .6rem;padding:.5rem .75rem}
   .header-row{flex-wrap:wrap}
   .contact{flex:1 1 100%;font-size:.8rem}
-}
-@media (max-width: 420px){
-  html{font-size:50%}       /* ~8px base ≈ half size */
 }
 </style>
 
@@ -70,12 +67,13 @@ footer.site-footer{display:none!important}
     2434 Osborn Dr · Dept. of Computer Science · Iowa State University · Ames, IA 50011 USA<br>
     <strong>Office:</strong> 232 Atanasoff Hall ·
     <strong>Email:</strong> <a href="mailto:meisam@iastate.edu">meisam@iastate.edu</a><br>
-    <strong>Affiliation:</strong> ISU Responsible Computing Lab<br>
+    <strong>Affiliation:</strong> Responsible Computing Lab, Dept. of Computer Science, Iowa State University (ISU)<br>
     <span style="color:#777;">© {{ site.time | date: "%Y" }} Meisam Mohammady</span>
   </div>
 </div>
 
-<!-- Main content starts here -->
+<div class="page-body" markdown="1">
+
 **Dr. Meisam Mohammady** is an Assistant Professor in the [Department of Computer Science](https://www.cs.iastate.edu) at [Iowa State University](https://www.iastate.edu) (ISU), where his research focuses on developing responsible Machine Learning methods that are **privacy-preserving, adversarially robust, and fair**, leveraging tools such as *Differential Privacy, Learning Theory,* and *Optimization*, with applications in *High Performance Computing (HPC), Federated Learning (FL), Networking, Anomaly Detection,* and *Private Retrieval*. His research has been published in top-tier conferences and journals such as IEEE Symposium on Security and Privacy (**IEEE S&P**), ACM Conference on Computer and Communications Security (**ACM CCS**), ACM Transactions on Intelligent Systems and Technology (**ACM TIST**), IEEE Computer Security Foundations Symposium (**IEEE CSF**), IEEE Transactions on Dependable and Secure Computing (**IEEE TDSC**), ACM Transactions on Privacy and Security (**ACM TOPS**), and IEEE Transactions on Knowledge and Data Engineering (**IEEE TKDE**).
 
 Prior to joining ISU, he was a Research Scientist at [CSIRO](https://www.csiro.au/en/)'s [Data61](https://data61.csiro.au/), Australia's leading digital research network.
@@ -137,7 +135,7 @@ Collaborative grant <em><strong>Privacy-Preserving Collaborative Data Sharing fo
 ---
 
 **💡 Patent Granted**  
-Joint patent <em><strong>Utility-Optimized Differential Privacy System</strong></em> granted (<strong>U.S. Patent No. 12321478</strong>).  
+<em><strong>Utility-Optimized Differential Privacy System</strong></em> — <strong>U.S. Patent No. 12321478</strong>.  
 🏅 Congrats to <strong>Mengyuan</strong> and the team!
 
 ---
@@ -145,3 +143,4 @@ Joint patent <em><strong>Utility-Optimized Differential Privacy System</strong><
 **📘 Foundational Privacy Study**  
 <em><strong>DPI: Ensuring Strict Differential Privacy for Infinite Data Streaming</strong></em>, appeared in <strong>IEEE S&P 2024</strong>.  
 🏅 Congrats to <strong>Shuya</strong> and all co-authors!
+</div>
