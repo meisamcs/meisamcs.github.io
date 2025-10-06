@@ -3,7 +3,7 @@ layout: default
 permalink: /research/
 title: "Research"
 ---
-<link rel="stylesheet" href="{{ '/assets/css/site-overrides.css?v=5' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/site-overrides.css?v=8' | relative_url }}">
 
 <style>
 /* Hide Cayman header/footer */

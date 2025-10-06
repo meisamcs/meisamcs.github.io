@@ -17,38 +17,42 @@
 .main-content h3{ font-size:1.05rem; margin:.8rem 0 .35rem; }
 .main-content h4{ font-size:1.00rem; margin:.7rem 0 .30rem; }
 
-/* Nav: keep labels intact on wrap */
-.topnav a{ white-space:nowrap; word-break:normal; overflow-wrap:normal; }
 /* ==== Contrast & Sharpness (global) ==== */
 
-/* Use the system UI font stack and better rendering */
-html,
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-               "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
-  -webkit-font-smoothing: auto;   /* antialiased looks thinner; auto is darker */
-  -moz-osx-font-smoothing: auto;
-  text-rendering: optimizeLegibility;
+/* Use the system UI font stack and darker smoothing */
+html, body{
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif;
+  -webkit-font-smoothing:auto;  /* 'auto' is a hair darker than 'antialiased' */
+  -moz-osx-font-smoothing:auto;
+  text-rendering:optimizeLegibility;
 }
 
 /* Darker body text everywhere */
-.main-content { color: #111; }
+.main-content { color:#111; }
 .main-content p,
 .main-content li,
 .main-content td,
-.main-content th { color: #111; }
+.main-content th { color:#111; }
 
 /* Headings: slightly heavier to look crisper */
 .main-content h1,
 .main-content h2,
 .main-content h3,
-.main-content h4 { font-weight: 600; color: #0d1117; }
+.main-content h4 { font-weight:600; color:#0d1117; }
 
-/* Nav links: a bit heavier & darker */
-.topnav a { color: #0f1419; font-weight: 600; }
+/* Nav: keep labels intact on wrap + darker tone */
+.topnav a{
+  white-space:nowrap; word-break:normal; overflow-wrap:normal;
+  color:#0f1419; font-weight:600;
+}
 
 /* “Contact” box text slightly darker */
-.contact { color: #1f2328; }
+.contact{ color:#1f2328; }
 
-/* Muted helper if you need softer copy anywhere */
-.muted { color: #444; }
+/* Muted helper */
+.muted{ color:#444; }
+
+/* Hide Cayman's hero + footer globally; tighten top spacing */
+.page-header{ display:none !important; }
+footer.site-footer{ display:none !important; }
+.main-content{ padding-top:0 !important; }
