@@ -1,13 +1,21 @@
-/* Global font downscale (about half on tiny phones) */
-@media (max-width: 720px){ html{ font-size:87.5%; } }
-@media (max-width: 560px){
-  html{ font-size:62.5%; }
-  .topnav{ gap:.3rem .6rem; padding:.5rem .75rem; }
-}
-@media (max-width: 420px){ html{ font-size:50%; } }
+/* === Global mobile typography & layout === */
 
-/* Keep nav labels intact */
-.topnav a{ white-space:nowrap; word-break:normal; overflow-wrap:normal; }
+/* Scale base font on small screens (≈ half size on tiny phones) */
+@media (max-width: 720px){ html{ font-size:87.5%; } }  /* ~14px */
+@media (max-width: 560px){ html{ font-size:62.5%; } }  /* ~10px */
+@media (max-width: 420px){ html{ font-size:50%; } }    /* ~8px */
 
-/* Optional: width */
+/* Comfortable page width on all pages */
 .main-content{ max-width:900px; margin:0 auto; padding:0 1rem; line-height:1.65; }
+
+/* Prevent ugly mid-word breaks globally */
+.main-content, .main-content *{ overflow-wrap:normal; word-break:normal; hyphens:auto; }
+
+/* Rem-sized headings so they downscale with the base */
+.main-content h1{ font-size:1.35rem; margin:.9rem 0 .4rem; }
+.main-content h2{ font-size:1.20rem; margin:.85rem 0 .4rem; }
+.main-content h3{ font-size:1.05rem; margin:.8rem 0 .35rem; }
+.main-content h4{ font-size:1.00rem; margin:.7rem 0 .30rem; }
+
+/* Nav: keep labels intact on wrap */
+.topnav a{ white-space:nowrap; word-break:normal; overflow-wrap:normal; }
