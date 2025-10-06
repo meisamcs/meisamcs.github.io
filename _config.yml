@@ -1,28 +1,21 @@
-# --- Site basics ---
 locale: "en-US"
-title: ""          # leave empty to hide Cayman's big blue header text
-description: ""    # leave empty too
+title: ""
+description: ""
 name: "Meisam Mohammady"
 url: https://meisamcs.github.io
 baseurl: ""
 repository: "meisamcs/meisamcs.github.io"
 timezone: America/Chicago
-
-# --- Theme ---
 remote_theme: pages-themes/cayman@v0.2.0
-# (For local builds, you may need: jekyll-remote-theme)
 plugins:
   - jekyll-feed
   - jekyll-sitemap
-
-# --- Author ---
+  - jekyll-remote-theme
 author:
   name: "Meisam Mohammady"
-  avatar: "meisam.png"  # put profilepic.jpg in the root of your repo
+  avatar: "meisam.png"
   bio: "Address: 2434 Osborn Dr, Department of Computer Science, Iowa State University, Ames, IA, 50011 <br><b>Office: 232 Atanasoff Hall</b><br><b>E-mail: meisam@iastate.edu</b>"
   googlescholar: "https://scholar.google.ca/citations?user=UL-3sUgAAAAJ&hl=en"
-
-# --- Markdown Rendering ---
 markdown: kramdown
 highlighter: rouge
 kramdown:
@@ -33,16 +26,41 @@ kramdown:
   entity_output: as_char
   smart_quotes: lsquo,rsquo,ldquo,rdquo
 excerpt_separator: "\n\n"
-
-# --- Defaults (Cayman layout only) ---
 defaults:
   - scope:
       path: ""
     values:
       layout: default
-
-# --- Compression ---
-compress_html:
-  clippings: none
-  ignore:
-    envs: development
+  - scope:
+      path: "_pages"
+    values:
+      layout: default
+      permalink: /:basename/
+  - scope:
+      path: "_posts"
+    values:
+      layout: default
+      permalink: /blog/:year/:month/:day/:title/
+include:
+  - _pages
+  - _posts
+exclude:
+  - Certificate.PNG
+  - 2022 Certificate.PNG
+  - 2024 Certificate.PNG
+  - talkmap
+  - talkmap.ipynb
+  - talkmap.py
+  - markdown_generator
+  - files
+  - images
+  - assets
+  - backup
+  - README.md
+  - CONTRIBUTING.md
+  - CHANGELOG.md
+  - 2022
+  - 2024
+  - Welcome file.html
+  - package.json
+  - robots.txt
