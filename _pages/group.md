@@ -3,7 +3,7 @@ layout: default
 permalink: /group/
 title: "Group"
 ---
-<link rel="stylesheet" href="{{ '/assets/css/site-overrides.css?v=2' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/site-overrides.css?v=3' | relative_url }}">
 
 <style>
 /* Hide Cayman's blue header/footer */
