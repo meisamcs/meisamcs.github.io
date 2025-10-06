@@ -3,6 +3,7 @@ layout: default
 permalink: /
 title: ""
 ---
+<link rel="stylesheet" href="{{ '/assets/css/site-overrides.css?v=1' | relative_url }}">
 
 <style>
 /* Hide Cayman header/footer; tighten content width */
