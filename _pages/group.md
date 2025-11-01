@@ -45,7 +45,8 @@ footer.site-footer{display:none!important}
 
 ## Current Students
 - Nicholas Stout (PhD)  
-- Ayesha Samreen (PhD)  
+- Ayesha Samreen (PhD) 
+- Qin Young (PhD student at Uconn) Co-advisor with Dr. Yuan Hong  
 
 <hr>
 
